@@ -1,0 +1,125 @@
+[
+  {
+    "category": "Food",
+    "question_text": "Pizza or pasta?",
+    "choice1": "Pizza",
+    "choice2": "Pasta",
+    "meaning1": "Classic Italian dish with a baked dough base and various toppings",
+    "meaning2": "Italian dish made with various shapes of pasta and sauces"
+  },
+  {
+    "category": "Travel",
+    "question_text": "Beach vacation or mountain getaway?",
+    "choice1": "Beach vacation",
+    "choice2": "Mountain getaway",
+    "meaning1": "Relaxing trip to a seaside location with sand and water activities",
+    "meaning2": "Trip to a mountainous region for hiking, skiing, and scenic views"
+  },
+   {
+    "category": "Sports",
+    "question_text": "Lionel Messi or Cristiano Ronaldo?",
+    "choice1": "Lionel Messi",
+    "meaning1": "Argentine professional footballer known for his dribbling, passing, and goalscoring",
+    "choice2": "Cristiano Ronaldo",
+    "meaning2": "Portuguese professional footballer known for his athleticism, shooting, and passing"
+  },
+  {
+    "category": "Color preference",
+    "question_text": "Red or blue?",
+    "choice1": "Red",
+    "meaning1": "A color often associated with love, passion, excitement, and danger",
+    "choice2": "Blue",
+    "meaning2": "A color often associated with peace, calmness, trust, and reliability"
+  },
+  {
+    "category": "Food preference",
+    "question_text": "Coffee or tea?",
+    "choice1": "Coffee",
+    "meaning1": "A brewed drink prepared from roasted coffee beans, known for its stimulating effect",
+    "choice2": "Tea",
+    "meaning2": "A beverage prepared by steeping cured leaves of the Camellia sinensis plant"
+  },
+  {
+    "category": "Transportation",
+    "question_text": "Public transport or car?",
+    "choice1": "Public transport",
+    "meaning1": "Shared transportation system like buses, trains, or subways",
+    "choice2": "Car",
+    "meaning2": "A personal motor vehicle for transporting passengers or goods"
+  },
+  {
+    "category": "Music genre",
+    "question_text": "Pop or Rock?",
+    "choice1": "Pop",
+    "meaning1": "Popular music, typically produced for mass consumption",
+    "choice2": "Rock",
+    "meaning2": "A broad genre of popular music that originated as "rock and roll" in the mid-1950s"
+  },
+  {
+    "category": "Streaming service",
+    "question_text": "Streaming platform: Netflix or Disney+?",
+    "choice1": "Netflix",
+    "meaning1": "A subscription streaming service for a wide variety of TV shows, movies, and documentaries",
+    "choice2": "Disney+",
+    "meaning2": "A subscription streaming service offering content from Disney, Pixar, Marvel, Star Wars, and National Geographic"
+  },
+  {
+    "category": "Social media",
+    "question_text": "Social media platform: Facebook or Twitter?",
+    "choice1": "Facebook",
+    "meaning1": "A social networking service where users can connect with friends and family, share content, and participate in groups",
+    "choice2": "Twitter",
+    "meaning2": "A social networking service where users can post and interact with messages restricted to 280 characters"
+  },
+  {
+    "category": "Shopping preference",
+    "question_text": "Shopping experience: Online shopping or brick-and-mortar stores?",
+    "choice1": "Online shopping",
+    "meaning1": "The process of purchasing goods or services over the internet",
+    "choice2": "Brick-and-mortar stores",
+    "meaning2": "Physical stores with a storefront where customers can browse and purchase products in person"
+  },
+  {
+    "category": "Sleeping habits",
+    "question_text": "Sleep schedule: Early bird or night owl?",
+    "choice1": "Early bird",
+    "meaning1": "Someone who wakes up and goes to bed early",
+    "choice2": "Night owl",
+    "meaning2": "Someone who stays up late and sleeps in"
+  },
+  {
+  "category": "Food",
+  "question_text": "Drink choice: Soda or juice?",
+  "choice1": "Soda",
+  "meaning1": "A carbonated drink flavored with a sweetener and usually containing caffeine",
+  "choice2": "Juice",
+  "meaning2": "A beverage made from the extraction of the liquid content of fruit or vegetables"
+  },
+  {
+    "category": "Entertainment",
+    "question_text": "Movie genre preference: Comedy or action?",
+    "choice1": "Comedy",
+    "meaning1": "A genre of film that aims to make the audience laugh",
+    "choice2": "Action",
+    "meaning2": "A genre of film that emphasizes physical stunts, fighting, and chases"
+  },
+    {
+    "category": "Pets",
+    "question_text": "Pet preference: Dogs or cats?",
+    "choice1": "Dogs",
+    "meaning1": "Loyal and social companion animals, often requiring training and walks",
+    "choice2": "Cats",
+    "meaning2": "Independent and affectionate companion animals"
+  },
+  {
+  "category": "Weather",
+  "question_text": "Weather preference: Sunny and warm or cool and rainy?",
+  "choice1": "Sunny and warm",
+  "meaning1": "Warm weather with clear skies and sunshine",
+  "choice2": "Cool and rainy",
+  "meaning2": "Lower temperatures with precipitation"
+  },
+  
+
+]
+
