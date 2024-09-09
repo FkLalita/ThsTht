@@ -10,13 +10,13 @@ import (
 
 type Questions []models.Question
 
-func DecodeJSON() {
+func DecodeJSON() Questions {
 	questions := Questions{}
 
 	file, err := os.Open("models/data.json")
 	if err != nil {
 		fmt.Println("Error opening file:", err)
-		return
+		return nil
 	}
 	defer file.Close()
 
@@ -24,14 +24,9 @@ func DecodeJSON() {
 	err = decoder.Decode(&questions)
 	if err != nil {
 		fmt.Println("Error decoding JSON:", err)
-		return
+		return nil
 	}
 
 	fmt.Println("Decoded questions:")
-	for _, question := range questions {
-		fmt.Printf("  Category: %s\n", question.Category)
-		fmt.Printf("  Question: %s\n", question.QuestionText)
-		fmt.Printf("    Choice 1: %s (%s)\n", question.Choice1, question.Meaning1)
-		fmt.Printf("    Choice 2: %s (%s)\n", question.Choice2, question.Meaning2)
-	}
+	return questions
 }

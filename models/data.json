@@ -53,7 +53,7 @@
     "choice1": "Pop",
     "meaning1": "Popular music, typically produced for mass consumption",
     "choice2": "Rock",
-    "meaning2": "A broad genre of popular music that originated as "rock and roll" in the mid-1950s"
+    "meaning2": "A broad genre of popular music that originated as 'rock and roll' in the mid-1950s"
   },
   {
     "category": "Streaming service",
@@ -118,7 +118,7 @@
   "meaning1": "Warm weather with clear skies and sunshine",
   "choice2": "Cool and rainy",
   "meaning2": "Lower temperatures with precipitation"
-  },
+  }
   
 
 ]
