@@ -1,125 +1,2825 @@
 [
   {
+    "id": 1,
+    "category": "Celebrity",
+    "question_text": "This or That: Would you rather be best friends with Taylor Swift or Beyoncé?",
+    "choice1": "Taylor Swift",
+    "choice2": "Beyoncé",
+    "meaning1": "A singer-songwriter known for her country-pop hits and personal storytelling.",
+    "meaning2": "A global icon known for her powerful vocals, elaborate stage performances, and feminist message."
+  },
+  {
+    "id": 2,
+    "category": "Fun",
+    "question_text": "This or That: Would you rather have the ability to teleport or the ability to read minds?",
+    "choice1": "Teleport",
+    "choice2": "Read Minds",
+    "meaning1": "To instantly transport yourself to any location.",
+    "meaning2": "To know the thoughts and feelings of others."
+  },
+  {
+    "id": 3,
+    "category": "Sport",
+    "question_text": "This or That: Would you rather be a professional basketball player or a professional soccer player?",
+    "choice1": "Basketball",
+    "choice2": "Soccer",
+    "meaning1": "A fast-paced, high-scoring sport played with a ball and two teams of five players.",
+    "meaning2": "A global sport played with a ball and two teams of eleven players."
+  },
+  {
+    "id": 4,
     "category": "Food",
-    "question_text": "Pizza or pasta?",
+    "question_text": "This or That: Would you rather eat pizza or tacos for the rest of your life?",
     "choice1": "Pizza",
-    "choice2": "Pasta",
-    "meaning1": "Classic Italian dish with a baked dough base and various toppings",
-    "meaning2": "Italian dish made with various shapes of pasta and sauces"
+    "choice2": "Tacos",
+    "meaning1": "A savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.",
+    "meaning2": "A traditional Mexican dish consisting of a corn or wheat tortilla filled with various ingredients, such as meat, cheese, beans, vegetables, and salsa."
   },
   {
-    "category": "Travel",
-    "question_text": "Beach vacation or mountain getaway?",
-    "choice1": "Beach vacation",
-    "choice2": "Mountain getaway",
-    "meaning1": "Relaxing trip to a seaside location with sand and water activities",
-    "meaning2": "Trip to a mountainous region for hiking, skiing, and scenic views"
-  },
-   {
-    "category": "Sports",
-    "question_text": "Lionel Messi or Cristiano Ronaldo?",
-    "choice1": "Lionel Messi",
-    "meaning1": "Argentine professional footballer known for his dribbling, passing, and goalscoring",
-    "choice2": "Cristiano Ronaldo",
-    "meaning2": "Portuguese professional footballer known for his athleticism, shooting, and passing"
+    "id": 5,
+    "category": "Football",
+    "question_text": "This or That: Would you rather watch the Super Bowl or the World Cup?",
+    "choice1": "Super Bowl",
+    "choice2": "World Cup",
+    "meaning1": "The championship game of the National Football League (NFL), played annually in the United States.",
+    "meaning2": "An international football tournament contested by the men's national teams of member associations of FIFA (Fédération Internationale de Football Association), held every four years."
   },
   {
-    "category": "Color preference",
-    "question_text": "Red or blue?",
-    "choice1": "Red",
-    "meaning1": "A color often associated with love, passion, excitement, and danger",
-    "choice2": "Blue",
-    "meaning2": "A color often associated with peace, calmness, trust, and reliability"
-  },
-  {
-    "category": "Food preference",
-    "question_text": "Coffee or tea?",
-    "choice1": "Coffee",
-    "meaning1": "A brewed drink prepared from roasted coffee beans, known for its stimulating effect",
-    "choice2": "Tea",
-    "meaning2": "A beverage prepared by steeping cured leaves of the Camellia sinensis plant"
-  },
-  {
-    "category": "Transportation",
-    "question_text": "Public transport or car?",
-    "choice1": "Public transport",
-    "meaning1": "Shared transportation system like buses, trains, or subways",
-    "choice2": "Car",
-    "meaning2": "A personal motor vehicle for transporting passengers or goods"
-  },
-  {
-    "category": "Music genre",
-    "question_text": "Pop or Rock?",
-    "choice1": "Pop",
-    "meaning1": "Popular music, typically produced for mass consumption",
-    "choice2": "Rock",
-    "meaning2": "A broad genre of popular music that originated as 'rock and roll' in the mid-1950s"
-  },
-  {
-    "category": "Streaming service",
-    "question_text": "Streaming platform: Netflix or Disney+?",
-    "choice1": "Netflix",
-    "meaning1": "A subscription streaming service for a wide variety of TV shows, movies, and documentaries",
-    "choice2": "Disney+",
-    "meaning2": "A subscription streaming service offering content from Disney, Pixar, Marvel, Star Wars, and National Geographic"
-  },
-  {
-    "category": "Social media",
-    "question_text": "Social media platform: Facebook or Twitter?",
-    "choice1": "Facebook",
-    "meaning1": "A social networking service where users can connect with friends and family, share content, and participate in groups",
-    "choice2": "Twitter",
-    "meaning2": "A social networking service where users can post and interact with messages restricted to 280 characters"
-  },
-  {
-    "category": "Shopping preference",
-    "question_text": "Shopping experience: Online shopping or brick-and-mortar stores?",
-    "choice1": "Online shopping",
-    "meaning1": "The process of purchasing goods or services over the internet",
-    "choice2": "Brick-and-mortar stores",
-    "meaning2": "Physical stores with a storefront where customers can browse and purchase products in person"
-  },
-  {
-    "category": "Sleeping habits",
-    "question_text": "Sleep schedule: Early bird or night owl?",
-    "choice1": "Early bird",
-    "meaning1": "Someone who wakes up and goes to bed early",
-    "choice2": "Night owl",
-    "meaning2": "Someone who stays up late and sleeps in"
-  },
-  {
-  "category": "Food",
-  "question_text": "Drink choice: Soda or juice?",
-  "choice1": "Soda",
-  "meaning1": "A carbonated drink flavored with a sweetener and usually containing caffeine",
-  "choice2": "Juice",
-  "meaning2": "A beverage made from the extraction of the liquid content of fruit or vegetables"
-  },
-  {
-    "category": "Entertainment",
-    "question_text": "Movie genre preference: Comedy or action?",
+    "id": 6,
+    "category": "Movie",
+    "question_text": "This or That: Would you rather watch a comedy or a thriller?",
     "choice1": "Comedy",
-    "meaning1": "A genre of film that aims to make the audience laugh",
-    "choice2": "Action",
-    "meaning2": "A genre of film that emphasizes physical stunts, fighting, and chases"
-  },
-    {
-    "category": "Pets",
-    "question_text": "Pet preference: Dogs or cats?",
-    "choice1": "Dogs",
-    "meaning1": "Loyal and social companion animals, often requiring training and walks",
-    "choice2": "Cats",
-    "meaning2": "Independent and affectionate companion animals"
+    "choice2": "Thriller",
+    "meaning1": "A film genre intended to make the audience laugh, typically by exaggerating situations, using slapstick humor, andor featuring a funny storyline.",
+    "meaning2": "A film genre that uses suspense, tension, and fear to create an exciting and often scary viewing experience."
   },
   {
-  "category": "Weather",
-  "question_text": "Weather preference: Sunny and warm or cool and rainy?",
-  "choice1": "Sunny and warm",
-  "meaning1": "Warm weather with clear skies and sunshine",
-  "choice2": "Cool and rainy",
-  "meaning2": "Lower temperatures with precipitation"
-  }
-  
-
+    "id": 7,
+    "category": "Programming",
+    "question_text": "This or That: Would you rather learn Python or JavaScript?",
+    "choice1": "Python",
+    "choice2": "JavaScript",
+    "meaning1": "A high-level, interpreted programming language known for its readability and versatility.",
+    "meaning2": "A scripting language primarily used for front-end web development, but also used for server-side development and other applications."
+  },
+  {
+    "id": 8,
+    "category": "Books",
+    "question_text": "This or That: Would you rather read a classic novel or a modern fantasy book?",
+    "choice1": "Classic Novel",
+    "choice2": "Modern Fantasy",
+    "meaning1": "A novel that has stood the test of time and is considered to be a significant work of literature.",
+    "meaning2": "A novel set in a fictional world, typically with elements of magic, mythology, and adventure."
+  },
+  {
+    "id": 9,
+    "category": "Vehicle",
+    "question_text": "This or That: Would you rather drive a sports car or a classic car?",
+    "choice1": "Sports Car",
+    "choice2": "Classic Car",
+    "meaning1": "A car designed for speed, performance, and handling.",
+    "meaning2": "A car that is considered to be a vintage or antique model."
+  },
+  {
+    "id": 10,
+    "category": "Art",
+    "question_text": "This or That: Would you rather visit the Louvre or the Museum of Modern Art?",
+    "choice1": "Louvre",
+    "choice2": "MoMA",
+    "meaning1": "A world-renowned museum in Paris, France, home to masterpieces of Western art, including the Mona Lisa.",
+    "meaning2": "A museum in New York City, United States, dedicated to modern and contemporary art."
+  },
+  {
+    "id": 11,
+    "category": "Animals",
+    "question_text": "This or That: Would you rather have a dog or a cat as a pet?",
+    "choice1": "Dog",
+    "choice2": "Cat",
+    "meaning1": "A domesticated canine known for its loyalty, obedience, and playful nature.",
+    "meaning2": "A domesticated feline known for its independence, cleanliness, and affectionate nature."
+  },
+  {
+    "id": 12,
+    "category": "History",
+    "question_text": "This or That: Would you rather visit ancient Rome or ancient Egypt?",
+    "choice1": "Ancient Rome",
+    "choice2": "Ancient Egypt",
+    "meaning1": "A civilization that flourished in Italy from the 8th century BC to the 5th century AD, known for its military power, engineering, and architecture.",
+    "meaning2": "A civilization that flourished in North Africa from the 4th millennium BC to the 4th century AD, known for its pyramids, hieroglyphics, and powerful pharaohs."
+  },
+  {
+    "id": 13,
+    "category": "Environment",
+    "question_text": "This or That: Is it more important to focus on mitigating climate change or adapting to its impacts?",
+    "choice1": "Mitigate Climate Change",
+    "choice2": "Adapt to its Impacts",
+    "meaning1": "Prioritizing efforts to reduce greenhouse gas emissions and prevent further global warming.",
+    "meaning2": "Focusing on developing strategies and technologies to cope with the inevitable consequences of climate change, such as rising sea levels and extreme weather events."
+  },
+  {
+    "id": 14,
+    "category": "Thought Provoking",
+    "question_text": "This or That: Would you rather live in a world without technology or a world without art?",
+    "choice1": "No Technology",
+    "choice2": "No Art",
+    "meaning1": "A world without computers, smartphones, internet, and other modern inventions.",
+    "meaning2": "A world without paintings, sculptures, music, literature, and other forms of artistic expression."
+  },
+  {
+    "id": 15,
+    "category": "Gen Z",
+    "question_text": "This or That: Would you rather have unlimited access to free Wi-Fi or unlimited free food?",
+    "choice1": "Free Wi-Fi",
+    "choice2": "Free Food",
+    "meaning1": "The ability to connect to the internet without any cost or data limitations.",
+    "meaning2": "The ability to eat as much food as you want without having to pay for it."
+  },
+  {
+    "id": 16,
+    "category": "Celebrity",
+    "question_text": "This or That: Would you rather be a famous actor or a famous musician?",
+    "choice1": "Famous Actor",
+    "choice2": "Famous Musician",
+    "meaning1": "A person who performs in plays, films, or television shows.",
+    "meaning2": "A person who creates and performs music."
+  },
+  {
+    "id": 17,
+    "category": "Fun",
+    "question_text": "This or That: Would you rather have the ability to fly or the ability to become invisible?",
+    "choice1": "Fly",
+    "choice2": "Invisible",
+    "meaning1": "To move through the air by using wings or other means of flight.",
+    "meaning2": "To be unable to be seen by others."
+  },
+  {
+    "id": 18,
+    "category": "Sport",
+    "question_text": "This or That: Would you rather be a professional athlete or a professional gamer?",
+    "choice1": "Professional Athlete",
+    "choice2": "Professional Gamer",
+    "meaning1": "A person who competes in a sport for a living.",
+    "meaning2": "A person who plays video games competitively for a living."
+  },
+  {
+    "id": 19,
+    "category": "Food",
+    "question_text": "This or That: Would you rather eat pizza or sushi for the rest of your life?",
+    "choice1": "Pizza",
+    "choice2": "Sushi",
+    "meaning1": "A savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.",
+    "meaning2": "A Japanese dish consisting of vinegared rice combined with a variety of ingredients, typically seafood, vegetables, and sometimes fruits."
+  },
+  {
+    "id": 20,
+    "category": "Football",
+    "question_text": "This or That: Would you rather play for the New England Patriots or the Dallas Cowboys?",
+    "choice1": "New England Patriots",
+    "choice2": "Dallas Cowboys",
+    "meaning1": "A professional American football team based in Foxborough, Massachusetts.",
+    "meaning2": "A professional American football team based in Arlington, Texas."
+  },
+  {
+    "id": 21,
+    "category": "Movie",
+    "question_text": "This or That: Would you rather watch a romantic comedy or a science fiction movie?",
+    "choice1": "Romantic Comedy",
+    "choice2": "Science Fiction",
+    "meaning1": "A film genre that combines elements of comedy and romance.",
+    "meaning2": "A film genre that often features futuristic settings, advanced technology, and space travel."
+  },
+  {
+    "id": 22,
+    "category": "Programming",
+    "question_text": "This or That: Would you rather work as a software engineer or a data scientist?",
+    "choice1": "Software Engineer",
+    "choice2": "Data Scientist",
+    "meaning1": "A person who designs, develops, and tests software applications.",
+    "meaning2": "A person who analyzes large datasets to identify trends and insights."
+  },
+  {
+    "id": 23,
+    "category": "Books",
+    "question_text": "This or That: Would you rather read a mystery novel or a historical fiction novel?",
+    "choice1": "Mystery Novel",
+    "choice2": "Historical Fiction",
+    "meaning1": "A novel that features a crime or puzzle that the protagonist must solve.",
+    "meaning2": "A novel set in the past, often focusing on historical events or figures."
+  },
+  {
+    "id": 24,
+    "category": "Vehicle",
+    "question_text": "This or That: Would you rather drive a motorcycle or a bicycle?",
+    "choice1": "Motorcycle",
+    "choice2": "Bicycle",
+    "meaning1": "A two-wheeled vehicle powered by an internal combustion engine.",
+    "meaning2": "A two-wheeled vehicle powered by human effort."
+  },
+  {
+    "id": 25,
+    "category": "Art",
+    "question_text": "This or That: Would you rather visit the Metropolitan Museum of Art or the Tate Modern?",
+    "choice1": "Metropolitan Museum of Art",
+    "choice2": "Tate Modern",
+    "meaning1": "A museum in New York City, United States, known for its vast collection of art from around the world.",
+    "meaning2": "A museum in London, England, dedicated to modern and contemporary art."
+  },
+  {
+    "id": 26,
+    "category": "Animals",
+    "question_text": "This or That: Would you rather have a dog or a hamster as a pet?",
+    "choice1": "Dog",
+    "choice2": "Hamster",
+    "meaning1": "A domesticated canine known for its loyalty, obedience, and playful nature.",
+    "meaning2": "A small, furry rodent often kept as a pet."
+  },
+  {
+    "id": 27,
+    "category": "History",
+    "question_text": "This or That: Would you rather visit ancient Greece or ancient China?",
+    "choice1": "Ancient Greece",
+    "choice2": "Ancient China",
+    "meaning1": "A civilization that flourished in the Mediterranean region from the 8th century BC to the 1st century AD, known for its philosophy, art, and democracy.",
+    "meaning2": "A civilization that flourished in East Asia from the 2nd millennium BC to the 20th century AD, known for its inventions, philosophy, and culture."
+  },
+  {
+    "id": 28,
+    "category": "Environment",
+    "question_text": "This or That: Would you rather live in a city or a rural area?",
+    "choice1": "City",
+    "choice2": "Rural Area",
+    "meaning1": "An area with a high population density, typically characterized by buildings, infrastructure, and a variety of businesses.",
+    "meaning2": "An area with a low population density, typically characterized by farms, forests, and open spaces."
+  },
+  {
+    "id": 29,
+    "category": "Thought Provoking",
+    "question_text": "This or That: Would you rather live in a world without music or a world without literature?",
+    "choice1": "No Music",
+    "choice2": "No Literature",
+    "meaning1": "A world without songs, melodies, and other forms of musical expression.",
+    "meaning2": "A world without books, poems, plays, and other forms of written works."
+  },
+  {
+    "id": 30,
+    "category": "Gen Z",
+    "question_text": "This or That: Would you rather have unlimited access to free streaming services or unlimited access to free travel?",
+    "choice1": "Free Streaming Services",
+    "choice2": "Free Travel",
+    "meaning1": "The ability to watch movies, TV shows, and other content on streaming platforms without any cost or subscription fees.",
+    "meaning2": "The ability to travel to any destination in the world without having to pay for transportation or accommodation."
+  },
+  {
+    "id": 31,
+    "category": "Celebrity",
+    "question_text": "This or That: Would you rather be best friends with Jennifer Aniston or Selena Gomez?",
+    "choice1": "Jennifer Aniston",
+    "choice2": "Selena Gomez",
+    "meaning1": "An actress known for her role in the sitcom Friends.",
+    "meaning2": "A singer and actress known for her work in Disney Channel shows and her music career."
+  },
+  {
+    "id": 32,
+    "category": "Fun",
+    "question_text": "This or That: Would you rather be able to talk to animals or to have the ability to time travel?",
+    "choice1": "Talk to Animals",
+    "choice2": "Time Travel",
+    "meaning1": "To understand and communicate with animals.",
+    "meaning2": "To travel through time, either to the past or the future."
+  },
+  {
+    "id": 33,
+    "category": "Sport",
+    "question_text": "This or That: Would you rather watch the NBA Finals or the World Series?",
+    "choice1": "NBA Finals",
+    "choice2": "World Series",
+    "meaning1": "The championship series of the National Basketball Association (NBA), played annually in the United States.",
+    "meaning2": "The championship series of Major League Baseball (MLB), played annually in the United States."
+  },
+  {
+    "id": 34,
+    "category": "Food",
+    "question_text": "This or That: Would you rather eat pasta or rice for the rest of your life?",
+    "choice1": "Pasta",
+    "choice2": "Rice",
+    "meaning1": "A type of food made from dough, typically of wheat flour, water, and sometimes eggs, that is rolled out and cut or shaped into various forms, then cooked by boiling or baking.",
+    "meaning2": "The seed of the Oryza sativa plant, commonly used as a staple food in many cultures."
+  },
+  {
+    "id": 35,
+    "category": "Football",
+    "question_text": "This or That: Would you rather watch the Champions League Final or the Super Bowl?",
+    "choice1": "Champions League Final",
+    "choice2": "Super Bowl",
+    "meaning1": "The championship game of the UEFA Champions League, an annual football competition contested by top clubs from across Europe.",
+    "meaning2": "The championship game of the National Football League (NFL), played annually in the United States."
+  },
+  {
+    "id": 36,
+    "category": "Movie",
+    "question_text": "This or That: Would you rather watch a horror movie or a fantasy movie?",
+    "choice1": "Horror Movie",
+    "choice2": "Fantasy Movie",
+    "meaning1": "A film genre that uses suspense, tension, and fear to create an exciting and often scary viewing experience.",
+    "meaning2": "A film genre that often features fictional worlds, magic, and mythology."
+  },
+  {
+    "id": 37,
+    "category": "Programming",
+    "question_text": "This or That: Would you rather learn Java or C++?",
+    "choice1": "Java",
+    "choice2": "C++",
+    "meaning1": "A high-level, object-oriented programming language known for its platform independence.",
+    "meaning2": "A general-purpose programming language known for its performance and control over system resources."
+  },
+  {
+    "id": 38,
+    "category": "Books",
+    "question_text": "This or That: Would you rather read a science fiction novel or a historical non-fiction book?",
+    "choice1": "Science Fiction Novel",
+    "choice2": "Historical Non-Fiction",
+    "meaning1": "A novel set in the future, often featuring advanced technology, space travel, and other futuristic concepts.",
+    "meaning2": "A book that tells the story of a historical event or figure, based on factual evidence."
+  },
+  {
+    "id": 39,
+    "category": "Vehicle",
+    "question_text": "This or That: Would you rather own a luxury car or a pickup truck?",
+    "choice1": "Luxury Car",
+    "choice2": "Pickup Truck",
+    "meaning1": "A car designed for comfort, style, and performance.",
+    "meaning2": "A truck designed for hauling cargo and towing trailers."
+  },
+  {
+    "id": 40,
+    "category": "Art",
+    "question_text": "This or That: Would you rather visit the Uffizi Gallery or the National Gallery?",
+    "choice1": "Uffizi Gallery",
+    "choice2": "National Gallery",
+    "meaning1": "An art museum in Florence, Italy, known for its collection of Renaissance paintings.",
+    "meaning2": "An art museum in London, England, known for its collection of Western European paintings from the 13th to the 19th centuries."
+  },
+  {
+    "id": 41,
+    "category": "Animals",
+    "question_text": "This or That: Would you rather have a cat or a bird as a pet?",
+    "choice1": "Cat",
+    "choice2": "Bird",
+    "meaning1": "A domesticated feline known for its independence, cleanliness, and affectionate nature.",
+    "meaning2": "A feathered creature often kept as a pet for its beauty and song."
+  },
+  {
+    "id": 42,
+    "category": "History",
+    "question_text": "This or That: Would you rather visit the Great Wall of China or the Colosseum?",
+    "choice1": "Great Wall of China",
+    "choice2": "Colosseum",
+    "meaning1": "A series of fortifications that were built over centuries to protect the northern borders of China from invaders.",
+    "meaning2": "A large amphitheatre in Rome, Italy, built in the 1st century AD, where gladiatorial contests and other public spectacles were held."
+  },
+  {
+    "id": 43,
+    "category": "Environment",
+    "question_text": "This or That: Is it more important to conserve water or to reduce energy consumption?",
+    "choice1": "Conserve Water",
+    "choice2": "Reduce Energy Consumption",
+    "meaning1": "Using water wisely and avoiding waste.",
+    "meaning2": "Using less energy by reducing our reliance on fossil fuels and adopting more efficient practices."
+  },
+  {
+    "id": 44,
+    "category": "Thought Provoking",
+    "question_text": "This or That: Would you rather live in a world without social media or a world without television?",
+    "choice1": "No Social Media",
+    "choice2": "No Television",
+    "meaning1": "A world without platforms like Facebook, Instagram, Twitter, and TikTok.",
+    "meaning2": "A world without television broadcasts, shows, and movies."
+  },
+  {
+    "id": 45,
+    "category": "Gen Z",
+    "question_text": "This or That: Would you rather have unlimited access to free online games or unlimited access to free music streaming?",
+    "choice1": "Free Online Games",
+    "choice2": "Free Music Streaming",
+    "meaning1": "The ability to play online video games without any cost or subscription fees.",
+    "meaning2": "The ability to listen to music on streaming platforms without any cost or subscription fees."
+  },
+  {
+    "id": 46,
+    "category": "Celebrity",
+    "question_text": "This or That: Would you rather be best friends with Chris Pratt or Ryan Reynolds?",
+    "choice1": "Chris Pratt",
+    "choice2": "Ryan Reynolds",
+    "meaning1": "An actor known for his roles in Guardians of the Galaxy and Jurassic World.",
+    "meaning2": "An actor and comedian known for his roles in Deadpool and Green Lantern."
+  },
+  {
+    "id": 47,
+    "category": "Fun",
+    "question_text": "This or That: Would you rather have the ability to teleport or the ability to speak any language?",
+    "choice1": "Teleport",
+    "choice2": "Speak Any Language",
+    "meaning1": "To instantly transport yourself to any location.",
+    "meaning2": "To understand and speak any language in the world."
+  },
+  {
+    "id": 48,
+    "category": "Sport",
+    "question_text": "This or That: Would you rather play golf or tennis?",
+    "choice1": "Golf",
+    "choice2": "Tennis",
+    "meaning1": "A sport played with clubs and a ball on a course with 18 holes.",
+    "meaning2": "A racket sport played by two opposing players (singles) or two opposing pairs (doubles) on a rectangular court that is divided by a net."
+  },
+  {
+    "id": 49,
+    "category": "Food",
+    "question_text": "This or That: Would you rather eat burgers or fries for the rest of your life?",
+    "choice1": "Burgers",
+    "choice2": "Fries",
+    "meaning1": "A type of sandwich consisting of one or more cooked patties of ground meat, typically beef, placed on a bread roll or bun.",
+    "meaning2": "A type of food consisting of potato slices or sticks that are deep-fried."
+  },
+  {
+    "id": 50,
+    "category": "Football",
+    "question_text": "This or That: Would you rather watch the NFL playoffs or the FIFA World Cup?",
+    "choice1": "NFL Playoffs",
+    "choice2": "FIFA World Cup",
+    "meaning1": "The postseason tournament of the National Football League (NFL), played annually in the United States.",
+    "meaning2": "An international football tournament contested by the men's national teams of member associations of FIFA (Fédération Internationale de Football Association), held every four years."
+  },
+  {
+    "id": 51,
+    "category": "Movie",
+    "question_text": "This or That: Would you rather watch an action movie or a drama movie?",
+    "choice1": "Action Movie",
+    "choice2": "Drama Movie",
+    "meaning1": "A film genre that typically features exciting and often dangerous scenes involving stunts, explosions, and violence.",
+    "meaning2": "A film genre that typically focuses on the lives and relationships of the characters, often dealing with serious or emotional themes."
+  },
+  {
+    "id": 52,
+    "category": "Programming",
+    "question_text": "This or That: Would you rather learn C# or PHP?",
+    "choice1": "C#",
+    "choice2": "PHP",
+    "meaning1": "A high-level, object-oriented programming language used for developing a wide variety of applications.",
+    "meaning2": "A server-side scripting language used primarily for web development."
+  },
+  {
+    "id": 53,
+    "category": "Books",
+    "question_text": "This or That: Would you rather read a fantasy novel or a non-fiction book about science?",
+    "choice1": "Fantasy Novel",
+    "choice2": "Science Non-Fiction",
+    "meaning1": "A novel set in a fictional world, typically with elements of magic, mythology, and adventure.",
+    "meaning2": "A book that provides factual information about science topics."
+  },
+  {
+    "id": 54,
+    "category": "Vehicle",
+    "question_text": "This or That: Would you rather ride a horse or a skateboard?",
+    "choice1": "Horse",
+    "choice2": "Skateboard",
+    "meaning1": "A domesticated equine animal often used for riding and transportation.",
+    "meaning2": "A type of board with wheels that is used for riding."
+  },
+  {
+    "id": 55,
+    "category": "Art",
+    "question_text": "This or That: Would you rather visit the National Gallery of Art or the Hermitage Museum?",
+    "choice1": "National Gallery of Art",
+    "choice2": "Hermitage Museum",
+    "meaning1": "An art museum in Washington, D.C., United States, known for its collection of American and European paintings, sculptures, and decorative arts.",
+    "meaning2": "An art museum in Saint Petersburg, Russia, known for its vast collection of Western European and Russian art."
+  },
+  {
+    "id": 56,
+    "category": "Animals",
+    "question_text": "This or That: Would you rather have a dog or a fish as a pet?",
+    "choice1": "Dog",
+    "choice2": "Fish",
+    "meaning1": "A domesticated canine known for its loyalty, obedience, and playful nature.",
+    "meaning2": "An aquatic animal often kept as a pet in an aquarium."
+  },
+  {
+    "id": 57,
+    "category": "History",
+    "question_text": "This or That: Would you rather visit the Taj Mahal or the Great Pyramid of Giza?",
+    "choice1": "Taj Mahal",
+    "choice2": "Great Pyramid of Giza",
+    "meaning1": "A white marble mausoleum complex in Agra, India, built by Mughal emperor Shah Jahan in the 17th century.",
+    "meaning2": "One of the three ancient pyramids of Giza, Egypt, built in the 26th century BC as a tomb for pharaoh Khufu."
+  },
+  {
+    "id": 58,
+    "category": "Environment",
+    "question_text": "This or That: Is it more important to conserve forests or to reduce pollution?",
+    "choice1": "Conserve Forests",
+    "choice2": "Reduce Pollution",
+    "meaning1": "Protecting forests from deforestation and habitat loss.",
+    "meaning2": "Minimizing the release of harmful substances into the environment."
+  },
+  {
+    "id": 59,
+    "category": "Thought Provoking",
+    "question_text": "This or That: Would you rather live in a world without the internet or a world without electricity?",
+    "choice1": "No Internet",
+    "choice2": "No Electricity",
+    "meaning1": "A world without the internet and all its services, such as email, social media, and online shopping.",
+    "meaning2": "A world without electricity and all its uses, such as lighting, heating, and powering appliances."
+  },
+  {
+    "id": 60,
+    "category": "Gen Z",
+    "question_text": "This or That: Would you rather have unlimited access to free streaming services or unlimited access to free rideshare services?",
+    "choice1": "Free Streaming Services",
+    "choice2": "Free Rideshare Services",
+    "meaning1": "The ability to watch movies, TV shows, and other content on streaming platforms without any cost or subscription fees.",
+    "meaning2": "The ability to ride in a rideshare vehicle without having to pay for the fare."
+  },
+  {
+    "id": 61,
+    "category": "Celebrity",
+    "question_text": "This or That: Would you rather be best friends with Brad Pitt or Leonardo DiCaprio?",
+    "choice1": "Brad Pitt",
+    "choice2": "Leonardo DiCaprio",
+    "meaning1": "An actor known for his roles in Fight Club and Once Upon a Time in Hollywood.",
+    "meaning2": "An actor known for his roles in Titanic and The Revenant."
+  },
+  {
+    "id": 62,
+    "category": "Fun",
+    "question_text": "This or That: Would you rather be able to read minds or to have the ability to control the weather?",
+    "choice1": "Read Minds",
+    "choice2": "Control Weather",
+    "meaning1": "To know the thoughts and feelings of others.",
+    "meaning2": "To manipulate weather patterns, such as rain, wind, and temperature."
+  },
+  {
+    "id": 63,
+    "category": "Sport",
+    "question_text": "This or That: Would you rather watch the Olympics or the FIFA World Cup?",
+    "choice1": "Olympics",
+    "choice2": "FIFA World Cup",
+    "meaning1": "An international sporting event held every four years, where athletes from around the world compete in a variety of sports.",
+    "meaning2": "An international football tournament contested by the men's national teams of member associations of FIFA (Fédération Internationale de Football Association), held every four years."
+  },
+  {
+    "id": 64,
+    "category": "Food",
+    "question_text": "This or That: Would you rather eat chocolate or ice cream for the rest of your life?",
+    "choice1": "Chocolate",
+    "choice2": "Ice Cream",
+    "meaning1": "A food made from roasted and ground cacao beans.",
+    "meaning2": "A frozen dessert made from milk, cream, sugar, and flavorings."
+  },
+  {
+    "id": 65,
+    "category": "Football",
+    "question_text": "This or That: Would you rather watch the NFL Draft or the Super Bowl?",
+    "choice1": "NFL Draft",
+    "choice2": "Super Bowl",
+    "meaning1": "An annual event in which professional American football teams select college players to join their teams.",
+    "meaning2": "The championship game of the National Football League (NFL), played annually in the United States."
+  },
+  {
+    "id": 66,
+    "category": "Movie",
+    "question_text": "This or That: Would you rather watch a musical or a documentary?",
+    "choice1": "Musical",
+    "choice2": "Documentary",
+    "meaning1": "A film genre that features songs and dances integrated into the storyline.",
+    "meaning2": "A film genre that aims to inform and educate the audience about a particular subject or event."
+  },
+  {
+    "id": 67,
+    "category": "Programming",
+    "question_text": "This or That: Would you rather learn Python or Ruby?",
+    "choice1": "Python",
+    "choice2": "Ruby",
+    "meaning1": "A high-level, interpreted programming language known for its readability and versatility.",
+    "meaning2": "A dynamic, object-oriented programming language known for its elegance and simplicity."
+  },
+  {
+    "id": 68,
+    "category": "Books",
+    "question_text": "This or That: Would you rather read a historical novel or a non-fiction book about art?",
+    "choice1": "Historical Novel",
+    "choice2": "Art Non-Fiction",
+    "meaning1": "A novel set in the past, often focusing on historical events or figures.",
+    "meaning2": "A book that provides factual information about art topics."
+  },
+  {
+    "id": 69,
+    "category": "Vehicle",
+    "question_text": "This or That: Would you rather own a convertible or a minivan?",
+    "choice1": "Convertible",
+    "choice2": "Minivan",
+    "meaning1": "A car with a retractable roof.",
+    "meaning2": "A van designed for carrying passengers, typically with seating for seven or more people."
+  },
+  {
+    "id": 70,
+    "category": "Art",
+    "question_text": "This or That: Would you rather visit the Rijksmuseum or the Prado Museum?",
+    "choice1": "Rijksmuseum",
+    "choice2": "Prado Museum",
+    "meaning1": "A museum in Amsterdam, Netherlands, known for its collection of Dutch art, including works by Rembrandt and Vermeer.",
+    "meaning2": "An art museum in Madrid, Spain, known for its collection of Spanish art, including works by Goya and Velázquez."
+  },
+  {
+    "id": 71,
+    "category": "Animals",
+    "question_text": "This or That: Would you rather have a cat or a rabbit as a pet?",
+    "choice1": "Cat",
+    "choice2": "Rabbit",
+    "meaning1": "A domesticated feline known for its independence, cleanliness, and affectionate nature.",
+    "meaning2": "A small, furry mammal with long ears often kept as a pet."
+  },
+  {
+    "id": 72,
+    "category": "History",
+    "question_text": "This or That: Would you rather visit the Acropolis or the Forbidden City?",
+    "choice1": "Acropolis",
+    "choice2": "Forbidden City",
+    "meaning1": "An ancient citadel in Athens, Greece, with temples and other structures dating back to the 5th century BC.",
+    "meaning2": "A palace complex in Beijing, China, built in the 15th century AD, once the imperial residence and center of Chinese government."
+  },
+  {
+    "id": 73,
+    "category": "Environment",
+    "question_text": "This or That: Is it more important to protect endangered species or to reduce plastic waste?",
+    "choice1": "Protect Endangered Species",
+    "choice2": "Reduce Plastic Waste",
+    "meaning1": "Preventing species from going extinct due to human activities.",
+    "meaning2": "Minimizing the production and use of plastic products, which contribute to pollution and environmental damage."
+  },
+  {
+    "id": 74,
+    "category": "Thought Provoking",
+    "question_text": "This or That: Would you rather live in a world without government or a world without religion?",
+    "choice1": "No Government",
+    "choice2": "No Religion",
+    "meaning1": "A world without any form of organized government or political authority.",
+    "meaning2": "A world without any organized religions or belief systems."
+  },
+  {
+    "id": 75,
+    "category": "Gen Z",
+    "question_text": "This or That: Would you rather have unlimited access to free food delivery or unlimited access to free ride-hailing services?",
+    "choice1": "Free Food Delivery",
+    "choice2": "Free Ride-Hailing Services",
+    "meaning1": "The ability to order food from restaurants and have it delivered to your location without any cost.",
+    "meaning2": "The ability to hail a ride from a ride-hailing service without having to pay for the fare."
+  },
+  {
+    "id": 76,
+    "category": "Celebrity",
+    "question_text": "This or That: Would you rather be best friends with Dwayne Johnson or Tom Holland?",
+    "choice1": "Dwayne Johnson",
+    "choice2": "Tom Holland",
+    "meaning1": "An actor and former professional wrestler known for his roles in The Fast and the Furious franchise and Jumanji.",
+    "meaning2": "An actor known for his role as Spider-Man in the Marvel Cinematic Universe."
+  },
+  {
+    "id": 77,
+    "category": "Fun",
+    "question_text": "This or That: Would you rather have the ability to shapeshift or the ability to speak to animals?",
+    "choice1": "Shapeshift",
+    "choice2": "Speak to Animals",
+    "meaning1": "To change your physical form into that of another creature.",
+    "meaning2": "To understand and communicate with animals."
+  },
+  {
+    "id": 78,
+    "category": "Sport",
+    "question_text": "This or That: Would you rather play basketball or baseball?",
+    "choice1": "Basketball",
+    "choice2": "Baseball",
+    "meaning1": "A fast-paced, high-scoring sport played with a ball and two teams of five players.",
+    "meaning2": "A bat-and-ball sport played between two teams of nine players each."
+  },
+  {
+    "id": 79,
+    "category": "Food",
+    "question_text": "This or That: Would you rather eat chicken or fish for the rest of your life?",
+    "choice1": "Chicken",
+    "choice2": "Fish",
+    "meaning1": "The meat of a domesticated fowl.",
+    "meaning2": "The flesh of a water-dwelling creature."
+  },
+  {
+    "id": 80,
+    "category": "Football",
+    "question_text": "This or That: Would you rather watch the NFL Draft or the Champions League Final?",
+    "choice1": "NFL Draft",
+    "choice2": "Champions League Final",
+    "meaning1": "An annual event in which professional American football teams select college players to join their teams.",
+    "meaning2": "The championship game of the UEFA Champions League, an annual football competition contested by top clubs from across Europe."
+  },
+  {
+    "id": 81,
+    "category": "Movie",
+    "question_text": "This or That: Would you rather watch a historical drama or a comedy movie?",
+    "choice1": "Historical Drama",
+    "choice2": "Comedy Movie",
+    "meaning1": "A film genre that typically focuses on historical events or figures, often dealing with serious or emotional themes.",
+    "meaning2": "A film genre intended to make the audience laugh, typically by exaggerating situations, using slapstick humor, andor featuring a funny storyline."
+  },
+  {
+    "id": 82,
+    "category": "Programming",
+    "question_text": "This or That: Would you rather learn SQL or HTML?",
+    "choice1": "SQL",
+    "choice2": "HTML",
+    "meaning1": "A structured query language used for managing and querying data in relational databases.",
+    "meaning2": "A markup language used for creating web pages."
+  },
+  {
+    "id": 83,
+    "category": "Books",
+    "question_text": "This or That: Would you rather read a thriller novel or a non-fiction book about history?",
+    "choice1": "Thriller Novel",
+    "choice2": "History Non-Fiction",
+    "meaning1": "A novel that uses suspense, tension, and fear to create an exciting and often scary viewing experience.",
+    "meaning2": "A book that provides factual information about historical events or figures."
+  },
+  [
+    {
+      "id": 84,
+      "category": "Vehicle",
+      "question_text": "This or That: Would you rather own a classic car or a modern electric car?",
+      "choice1": "Classic Car",
+      "choice2": "Modern Electric Car",
+      "meaning1": "A car that is considered to be a vintage or antique model.",
+      "meaning2": "A car that is powered by electricity, typically with a high level of technology and efficiency."
+    },
+    {
+      "id": 85,
+      "category": "Art",
+      "question_text": "This or That: Would you rather visit the Van Gogh Museum or the Guggenheim Museum?",
+      "choice1": "Van Gogh Museum",
+      "choice2": "Guggenheim Museum",
+      "meaning1": "A museum in Amsterdam, Netherlands, dedicated to the work of Vincent van Gogh.",
+      "meaning2": "A museum in New York City, United States, known for its unique spiral design and collection of modern and contemporary art."
+    },
+    {
+      "id": 86,
+      "category": "Animals",
+      "question_text": "This or That: Would you rather have a pet cat or a pet snake?",
+      "choice1": "Cat",
+      "choice2": "Snake",
+      "meaning1": "A domesticated feline known for its independence, cleanliness, and affectionate nature.",
+      "meaning2": "A legless, scaly reptile often kept as a pet for its unique appearance and behavior."
+    },
+    {
+      "id": 87,
+      "category": "History",
+      "question_text": "This or That: Would you rather visit the Great Wall of China or the Pyramids of Giza?",
+      "choice1": "Great Wall of China",
+      "choice2": "Pyramids of Giza",
+      "meaning1": "A series of fortifications that were built over centuries to protect the northern borders of China from invaders.",
+      "meaning2": "A group of three ancient pyramids located in Giza, Egypt, built as tombs for pharaohs."
+    },
+    {
+      "id": 88,
+      "category": "Environment",
+      "question_text": "This or That: Is it more important to reduce carbon emissions or to conserve water resources?",
+      "choice1": "Reduce Carbon Emissions",
+      "choice2": "Conserve Water Resources",
+      "meaning1": "Minimizing the release of greenhouse gases into the atmosphere.",
+      "meaning2": "Using water wisely and avoiding waste."
+    },
+    {
+      "id": 89,
+      "category": "Thought Provoking",
+      "question_text": "This or That: Would you rather live in a world without music or a world without literature?",
+      "choice1": "No Music",
+      "choice2": "No Literature",
+      "meaning1": "A world without songs, melodies, and other forms of musical expression.",
+      "meaning2": "A world without books, poems, plays, and other forms of written works."
+    },
+    {
+      "id": 90,
+      "category": "Gen Z",
+      "question_text": "This or That: Would you rather have unlimited access to free streaming services or unlimited access to free ride-sharing services?",
+      "choice1": "Free Streaming Services",
+      "choice2": "Free Ride-Sharing Services",
+      "meaning1": "The ability to watch movies, TV shows, and other content on streaming platforms without any cost or subscription fees.",
+      "meaning2": "The ability to hail a ride from a ride-sharing service without having to pay for the fare."
+    },
+    {
+      "id": 91,
+      "category": "Celebrity",
+      "question_text": "This or That: Would you rather be best friends with Emma Watson or Zendaya?",
+      "choice1": "Emma Watson",
+      "choice2": "Zendaya",
+      "meaning1": "An actress known for her role as Hermione Granger in the Harry Potter film series.",
+      "meaning2": "An actress and singer known for her roles in Disney Channel shows and her music career."
+    },
+    {
+      "id": 92,
+      "category": "Fun",
+      "question_text": "This or That: Would you rather have the ability to time travel or the ability to read minds?",
+      "choice1": "Time Travel",
+      "choice2": "Read Minds",
+      "meaning1": "To travel through time, either to the past or the future.",
+      "meaning2": "To know the thoughts and feelings of others."
+    },
+    {
+      "id": 93,
+      "category": "Sport",
+      "question_text": "This or That: Would you rather play soccer or tennis?",
+      "choice1": "Soccer",
+      "choice2": "Tennis",
+      "meaning1": "A global sport played with a ball and two teams of eleven players.",
+      "meaning2": "A racket sport played by two opposing players (singles) or two opposing pairs (doubles) on a rectangular court that is divided by a net."
+    },
+    {
+      "id": 94,
+      "category": "Food",
+      "question_text": "This or That: Would you rather eat pizza or tacos for the rest of your life?",
+      "choice1": "Pizza",
+      "choice2": "Tacos",
+      "meaning1": "A savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.",
+      "meaning2": "A traditional Mexican dish consisting of a corn or wheat tortilla filled with various ingredients, such as meat, cheese, beans, vegetables, and salsa."
+    },
+    {
+      "id": 95,
+      "category": "Football",
+      "question_text": "This or That: Would you rather watch the Super Bowl or the World Cup?",
+      "choice1": "Super Bowl",
+      "choice2": "World Cup",
+      "meaning1": "The championship game of the National Football League (NFL), played annually in the United States.",
+      "meaning2": "An international football tournament contested by the men's national teams of member associations of FIFA (Fédération Internationale de Football Association), held every four years."
+    },
+    {
+      "id": 96,
+      "category": "Movie",
+      "question_text": "This or That: Would you rather watch a comedy or a horror movie?",
+      "choice1": "Comedy",
+      "choice2": "Horror",
+      "meaning1": "A film genre intended to make the audience laugh, typically by exaggerating situations, using slapstick humor, andor featuring a funny storyline.",
+      "meaning2": "A film genre that uses suspense, tension, and fear to create an exciting and often scary viewing experience."
+    },
+    {
+      "id": 97,
+      "category": "Programming",
+      "question_text": "This or That: Would you rather learn Python or JavaScript?",
+      "choice1": "Python",
+      "choice2": "JavaScript",
+      "meaning1": "A high-level, interpreted programming language known for its readability and versatility.",
+      "meaning2": "A scripting language primarily used for front-end web development, but also used for server-side development and other applications."
+    },
+    {
+      "id": 98,
+      "category": "Books",
+      "question_text": "This or That: Would you rather read a classic novel or a modern fantasy book?",
+      "choice1": "Classic Novel",
+      "choice2": "Modern Fantasy",
+      "meaning1": "A novel that has stood the test of time and is considered to be a significant work of literature.",
+      "meaning2": "A novel set in a fictional world, typically with elements of magic, mythology, and adventure."
+    },
+    {
+      "id": 99,
+      "category": "Vehicle",
+      "question_text": "This or That: Would you rather drive a sports car or a truck?",
+      "choice1": "Sports Car",
+      "choice2": "Truck",
+      "meaning1": "A car designed for speed, performance, and handling.",
+      "meaning2": "A vehicle designed for hauling cargo and towing trailers."
+    },
+    {
+      "id": 100,
+      "category": "Art",
+      "question_text": "This or That: Would you rather visit the Louvre or the Museum of Modern Art?",
+      "choice1": "Louvre",
+      "choice2": "MoMA",
+      "meaning1": "A world-renowned museum in Paris, France, home to masterpieces of Western art, including the Mona Lisa.",
+      "meaning2": "A museum in New York City, United States, dedicated to modern and contemporary art."
+    },
+    {
+      "id": 101,
+      "category": "Animals",
+      "question_text": "This or That: Would you rather have a dog or a cat as a pet?",
+      "choice1": "Dog",
+      "choice2": "Cat",
+      "meaning1": "A domesticated canine known for its loyalty, obedience, and playful nature.",
+      "meaning2": "A domesticated feline known for its independence, cleanliness, and affectionate nature."
+    },
+    {
+      "id": 102,
+      "category": "History",
+      "question_text": "This or That: Would you rather visit ancient Rome or ancient Egypt?",
+      "choice1": "Ancient Rome",
+      "choice2": "Ancient Egypt",
+      "meaning1": "A civilization that flourished in Italy from the 8th century BC to the 5th century AD, known for its military power, engineering, and architecture.",
+      "meaning2": "A civilization that flourished in North Africa from the 4th millennium BC to the 4th century AD, known for its pyramids, hieroglyphics, and powerful pharaohs."
+    },
+    {
+      "id": 103,
+      "category": "Environment",
+      "question_text": "This or That: Is it more important to focus on mitigating climate change or adapting to its impacts?",
+      "choice1": "Mitigate Climate Change",
+      "choice2": "Adapt to its Impacts",
+      "meaning1": "Prioritizing efforts to reduce greenhouse gas emissions and prevent further global warming.",
+      "meaning2": "Focusing on developing strategies and technologies to cope with the inevitable consequences of climate change, such as rising sea levels and extreme weather events."
+    },
+    {
+      "id": 104,
+      "category": "Thought Provoking",
+      "question_text": "This or That: Would you rather live in a world without technology or a world without art?",
+      "choice1": "No Technology",
+      "choice2": "No Art",
+      "meaning1": "A world without computers, smartphones, internet, and other modern inventions.",
+      "meaning2": "A world without paintings, sculptures, music, literature, and other forms of artistic expression."
+    },
+    {
+      "id": 105,
+      "category": "Gen Z",
+      "question_text": "This or That: Would you rather have unlimited access to free Wi-Fi or unlimited free food?",
+      "choice1": "Free Wi-Fi",
+      "choice2": "Free Food",
+      "meaning1": "The ability to connect to the internet without any cost or data limitations.",
+      "meaning2": "The ability to eat as much food as you want without having to pay for it."
+    },
+    {
+      "id": 106,
+      "category": "Celebrity",
+      "question_text": "This or That: Would you rather be best friends with Taylor Swift or Beyoncé?",
+      "choice1": "Taylor Swift",
+      "choice2": "Beyoncé",
+      "meaning1": "A singer-songwriter known for her country-pop hits and personal storytelling.",
+      "meaning2": "A global icon known for her powerful vocals, elaborate stage performances, and feminist message."
+    },
+    {
+      "id": 107,
+      "category": "Fun",
+      "question_text": "This or That: Would you rather have the ability to teleport or the ability to read minds?",
+      "choice1": "Teleport",
+      "choice2": "Read Minds",
+      "meaning1": "To instantly transport yourself to any location.",
+      "meaning2": "To know the thoughts and feelings of others."
+    },
+    {
+      "id": 108,
+      "category": "Sport",
+      "question_text": "This or That: Would you rather be a professional basketball player or a professional soccer player?",
+      "choice1": "Basketball",
+      "choice2": "Soccer",
+      "meaning1": "A fast-paced, high-scoring sport played with a ball and two teams of five players.",
+      "meaning2": "A global sport played with a ball and two teams of eleven players."
+    },
+    {
+      "id": 109,
+      "category": "Food",
+      "question_text": "This or That: Would you rather eat pizza or tacos for the rest of your life?",
+      "choice1": "Pizza",
+      "choice2": "Tacos",
+      "meaning1": "A savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.",
+      "meaning2": "A traditional Mexican dish consisting of a corn or wheat tortilla filled with various ingredients, such as meat, cheese, beans, vegetables, and salsa."
+    },
+    {
+      "id": 110,
+      "category": "Football",
+      "question_text": "This or That: Would you rather watch the Super Bowl or the World Cup?",
+      "choice1": "Super Bowl",
+      "choice2": "World Cup",
+      "meaning1": "The championship game of the National Football League (NFL), played annually in the United States.",
+      "meaning2": "An international football tournament contested by the men's national teams of member associations of FIFA (Fédération Internationale de Football Association), held every four years."
+    },
+    {
+      "id": 111,
+      "category": "Movie",
+      "question_text": "This or That: Would you rather watch a comedy or a thriller?",
+      "choice1": "Comedy",
+      "choice2": "Thriller",
+      "meaning1": "A film genre intended to make the audience laugh, typically by exaggerating situations, using slapstick humor, andor featuring a funny storyline.",
+      "meaning2": "A film genre that uses suspense, tension, and fear to create an exciting and often scary viewing experience."
+    },
+    {
+      "id": 112,
+      "category": "Programming",
+      "question_text": "This or That: Would you rather learn Python or JavaScript?",
+      "choice1": "Python",
+      "choice2": "JavaScript",
+      "meaning1": "A high-level, interpreted programming language known for its readability and versatility.",
+      "meaning2": "A scripting language primarily used for front-end web development, but also used for server-side development and other applications."
+    },
+    {
+      "id": 113,
+      "category": "Books",
+      "question_text": "This or That: Would you rather read a classic novel or a modern fantasy book?",
+      "choice1": "Classic Novel",
+      "choice2": "Modern Fantasy",
+      "meaning1": "A novel that has stood the test of time and is considered to be a significant work of literature.",
+      "meaning2": "A novel set in a fictional world, typically with elements of magic, mythology, and adventure."
+    },
+    {
+      "id": 114,
+      "category": "Vehicle",
+      "question_text": "This or That: Would you rather drive a sports car or a classic car?",
+      "choice1": "Sports Car",
+      "choice2": "Classic Car",
+      "meaning1": "A car designed for speed, performance, and handling.",
+      "meaning2": "A car that is considered to be a vintage or antique model."
+    },
+    {
+      "id": 115,
+      "category": "Art",
+      "question_text": "This or That: Would you rather visit the Louvre or the Museum of Modern Art?",
+      "choice1": "Louvre",
+      "choice2": "MoMA",
+      "meaning1": "A world-renowned museum in Paris, France, home to masterpieces of Western art, including the Mona Lisa.",
+      "meaning2": "A museum in New York City, United States, dedicated to modern and contemporary art."
+    },
+    {
+      "id": 116,
+      "category": "Animals",
+      "question_text": "This or That: Would you rather have a dog or a cat as a pet?",
+      "choice1": "Dog",
+      "choice2": "Cat",
+      "meaning1": "A domesticated canine known for its loyalty, obedience, and playful nature.",
+      "meaning2": "A domesticated feline known for its independence, cleanliness, and affectionate nature."
+    },
+    {
+      "id": 117,
+      "category": "History",
+      "question_text": "This or That: Would you rather visit ancient Rome or ancient Egypt?",
+      "choice1": "Ancient Rome",
+      "choice2": "Ancient Egypt",
+      "meaning1": "A civilization that flourished in Italy from the 8th century BC to the 5th century AD, known for its military power, engineering, and architecture.",
+      "meaning2": "A civilization that flourished in North Africa from the 4th millennium BC to the 4th century AD, known for its pyramids, hieroglyphics, and powerful pharaohs."
+    },
+    {
+      "id": 118,
+      "category": "Environment",
+      "question_text": "This or That: Is it more important to focus on mitigating climate change or adapting to its impacts?",
+      "choice1": "Mitigate Climate Change",
+      "choice2": "Adapt to its Impacts",
+      "meaning1": "Prioritizing efforts to reduce greenhouse gas emissions and prevent further global warming.",
+      "meaning2": "Focusing on developing strategies and technologies to cope with the inevitable consequences of climate change, such as rising sea levels and extreme weather events."
+    },
+    {
+      "id": 119,
+      "category": "Thought Provoking",
+      "question_text": "This or That: Would you rather live in a world without technology or a world without art?",
+      "choice1": "No Technology",
+      "choice2": "No Art",
+      "meaning1": "A world without computers, smartphones, internet, and other modern inventions.",
+      "meaning2": "A world without paintings, sculptures, music, literature, and other forms of artistic expression."
+    },
+    {
+      "id": 120,
+      "category": "Gen Z",
+      "question_text": "This or That: Would you rather have unlimited access to free Wi-Fi or unlimited free food?",
+      "choice1": "Free Wi-Fi",
+      "choice2": "Free Food",
+      "meaning1": "The ability to connect to the internet without any cost or data limitations.",
+      "meaning2": "The ability to eat as much food as you want without having to pay for it."
+    },
+    {
+      "id": 121,
+      "category": "Celebrity",
+      "question_text": "This or That: Would you rather be best friends with Jennifer Aniston or Selena Gomez?",
+      "choice1": "Jennifer Aniston",
+      "choice2": "Selena Gomez",
+      "meaning1": "An actress known for her role in the sitcom Friends.",
+      "meaning2": "A singer and actress known for her work in Disney Channel shows and her music career."
+    },
+    {
+      "id": 122,
+      "category": "Fun",
+      "question_text": "This or That: Would you rather be able to talk to animals or to have the ability to time travel?",
+      "choice1": "Talk to Animals",
+      "choice2": "Time Travel",
+      "meaning1": "To understand and communicate with animals.",
+      "meaning2": "To travel through time, either to the past or the future."
+    },
+    {
+      "id": 123,
+      "category": "Sport",
+      "question_text": "This or That: Would you rather watch the NBA Finals or the World Series?",
+      "choice1": "NBA Finals",
+      "choice2": "World Series",
+      "meaning1": "The championship series of the National Basketball Association (NBA), played annually in the United States.",
+      "meaning2": "The championship series of Major League Baseball (MLB), played annually in the United States."
+    },
+    {
+      "id": 124,
+      "category": "Food",
+      "question_text": "This or That: Would you rather eat pasta or rice for the rest of your life?",
+      "choice1": "Pasta",
+      "choice2": "Rice",
+      "meaning1": "A type of food made from dough, typically of wheat flour, water, and sometimes eggs, that is rolled out and cut or shaped into various forms, then cooked by boiling or baking.",
+      "meaning2": "The seed of the Oryza sativa plant, commonly used as a staple food in many cultures."
+    },
+    {
+      "id": 125,
+      "category": "Football",
+      "question_text": "This or That: Would you rather play for the New England Patriots or the Dallas Cowboys?",
+      "choice1": "New England Patriots",
+      "choice2": "Dallas Cowboys",
+      "meaning1": "A professional American football team based in Foxborough, Massachusetts.",
+      "meaning2": "A professional American football team based in Arlington, Texas."
+    },
+    {
+      "id": 126,
+      "category": "Movie",
+      "question_text": "This or That: Would you rather watch a romantic comedy or a science fiction movie?",
+      "choice1": "Romantic Comedy",
+      "choice2": "Science Fiction",
+      "meaning1": "A film genre that combines elements of comedy and romance.",
+      "meaning2": "A film genre that often features futuristic settings, advanced technology, and space travel."
+    },
+    {
+      "id": 127,
+      "category": "Programming",
+      "question_text": "This or That: Would you rather work as a software engineer or a data scientist?",
+      "choice1": "Software Engineer",
+      "choice2": "Data Scientist",
+      "meaning1": "A person who designs, develops, and tests software applications.",
+      "meaning2": "A person who analyzes large datasets to identify trends and insights."
+    },
+    {
+      "id": 128,
+      "category": "Books",
+      "question_text": "This or That: Would you rather read a mystery novel or a historical fiction novel?",
+      "choice1": "Mystery Novel",
+      "choice2": "Historical Fiction",
+      "meaning1": "A novel that features a crime or puzzle that the protagonist must solve.",
+      "meaning2": "A novel set in the past, often focusing on historical events or figures."
+    },
+    {
+      "id": 129,
+      "category": "Vehicle",
+      "question_text": "This or That: Would you rather drive a motorcycle or a bicycle?",
+      "choice1": "Motorcycle",
+      "choice2": "Bicycle",
+      "meaning1": "A two-wheeled vehicle powered by an internal combustion engine.",
+      "meaning2": "A two-wheeled vehicle powered by human effort."
+    },
+    {
+      "id": 130,
+      "category": "Art",
+      "question_text": "This or That: Would you rather visit the Metropolitan Museum of Art or the Tate Modern?",
+      "choice1": "Metropolitan Museum of Art",
+      "choice2": "Tate Modern",
+      "meaning1": "A museum in New York City, United States, known for its vast collection of art from around the world.",
+      "meaning2": "A museum in London, England, dedicated to modern and contemporary art."
+    },
+    {
+      "id": 131,
+      "category": "Animals",
+      "question_text": "This or That: Would you rather have a dog or a hamster as a pet?",
+      "choice1": "Dog",
+      "choice2": "Hamster",
+      "meaning1": "A domesticated canine known for its loyalty, obedience, and playful nature.",
+      "meaning2": "A small, furry rodent often kept as a pet."
+    },
+    {
+      "id": 132,
+      "category": "History",
+      "question_text": "This or That: Would you rather visit ancient Greece or ancient China?",
+      "choice1": "Ancient Greece",
+      "choice2": "Ancient China",
+      "meaning1": "A civilization that flourished in the Mediterranean region from the 8th century BC to the 1st century AD, known for its philosophy, art, and democracy.",
+      "meaning2": "A civilization that flourished in East Asia from the 2nd millennium BC to the 20th century AD, known for its inventions, philosophy, and culture."
+    },
+    {
+      "id": 133,
+      "category": "Environment",
+      "question_text": "This or That: Would you rather live in a city or a rural area?",
+      "choice1": "City",
+      "choice2": "Rural Area",
+      "meaning1": "An area with a high population density, typically characterized by buildings, infrastructure, and a variety of businesses.",
+      "meaning2": "An area with a low population density, typically characterized by farms, forests, and open spaces."
+    },
+    {
+      "id": 134,
+      "category": "Thought Provoking",
+      "question_text": "This or That: Would you rather live in a world without music or a world without literature?",
+      "choice1": "No Music",
+      "choice2": "No Literature",
+      "meaning1": "A world without songs, melodies, and other forms of musical expression.",
+      "meaning2": "A world without books, poems, plays, and other forms of written works."
+    },
+    {
+      "id": 135,
+      "category": "Gen Z",
+      "question_text": "This or That: Would you rather have unlimited access to free streaming services or unlimited access to free travel?",
+      "choice1": "Free Streaming Services",
+      "choice2": "Free Travel",
+      "meaning1": "The ability to watch movies, TV shows, and other content on streaming platforms without any cost or subscription fees.",
+      "meaning2": "The ability to travel to any destination in the world without having to pay for transportation or accommodation."
+    },
+    {
+      "id": 136,
+      "category": "Celebrity",
+      "question_text": "This or That: Would you rather be best friends with Chris Pratt or Ryan Reynolds?",
+      "choice1": "Chris Pratt",
+      "choice2": "Ryan Reynolds",
+      "meaning1": "An actor known for his roles in Guardians of the Galaxy and Jurassic World.",
+      "meaning2": "An actor and comedian known for his roles in Deadpool and Green Lantern."
+    },
+    {
+      "id": 137,
+      "category": "Fun",
+      "question_text": "This or That: Would you rather have the ability to fly or the ability to become invisible?",
+      "choice1": "Fly",
+      "choice2": "Invisible",
+      "meaning1": "To move through the air by using wings or other means of flight.",
+      "meaning2": "To be unable to be seen by others."
+    },
+    {
+      "id": 138,
+      "category": "Sport",
+      "question_text": "This or That: Would you rather be a professional athlete or a professional gamer?",
+      "choice1": "Professional Athlete",
+      "choice2": "Professional Gamer",
+      "meaning1": "A person who competes in a sport for a living.",
+      "meaning2": "A person who plays video games competitively for a living."
+    },
+    {
+      "id": 139,
+      "category": "Food",
+      "question_text": "This or That: Would you rather eat pizza or sushi for the rest of your life?",
+      "choice1": "Pizza",
+      "choice2": "Sushi",
+      "meaning1": "A savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.",
+      "meaning2": "A Japanese dish consisting of vinegared rice combined with a variety of ingredients, typically seafood, vegetables, and sometimes fruits."
+    },
+    {
+      "id": 140,
+      "category": "Football",
+      "question_text": "This or That: Would you rather watch the Champions League Final or the Super Bowl?",
+      "choice1": "Champions League Final",
+      "choice2": "Super Bowl",
+      "meaning1": "The championship game of the UEFA Champions League, an annual football competition contested by top clubs from across Europe.",
+      "meaning2": "The championship game of the National Football League (NFL), played annually in the United States."
+    },
+    {
+      "id": 141,
+      "category": "Movie",
+      "question_text": "This or That: Would you rather watch a horror movie or a fantasy movie?",
+      "choice1": "Horror Movie",
+      "choice2": "Fantasy Movie",
+      "meaning1": "A film genre that uses suspense, tension, and fear to create an exciting and often scary viewing experience.",
+      "meaning2": "A film genre that often features fictional worlds, magic, and mythology."
+    },
+    {
+      "id": 142,
+      "category": "Programming",
+      "question_text": "This or That: Would you rather learn Java or C++?",
+      "choice1": "Java",
+      "choice2": "C++",
+      "meaning1": "A high-level, object-oriented programming language known for its platform independence.",
+      "meaning2": "A general-purpose programming language known for its performance and control over system resources."
+    },
+    {
+      "id": 143,
+      "category": "Books",
+      "question_text": "This or That: Would you rather read a science fiction novel or a historical non-fiction book?",
+      "choice1": "Science Fiction Novel",
+      "choice2": "Historical Non-Fiction",
+      "meaning1": "A novel set in the future, often featuring advanced technology, space travel, and other futuristic concepts.",
+      "meaning2": "A book that tells the story of a historical event or figure, based on factual evidence."
+    },
+    {
+      "id": 144,
+      "category": "Vehicle",
+      "question_text": "This or That: Would you rather drive a luxury car or a pickup truck?",
+      "choice1": "Luxury Car",
+      "choice2": "Pickup Truck",
+      "meaning1": "A car designed for comfort, style, and performance.",
+      "meaning2": "A truck designed for hauling cargo and towing trailers."
+    },
+    {
+      "id": 145,
+      "category": "Art",
+      "question_text": "This or That: Would you rather visit the Uffizi Gallery or the National Gallery?",
+      "choice1": "Uffizi Gallery",
+      "choice2": "National Gallery",
+      "meaning1": "An art museum in Florence, Italy, known for its collection of Renaissance paintings.",
+      "meaning2": "An art museum in London, England, known for its collection of Western European paintings from the 13th to the 19th centuries."
+    },
+    {
+      "id": 146,
+      "category": "Animals",
+      "question_text": "This or That: Would you rather have a cat or a bird as a pet?",
+      "choice1": "Cat",
+      "choice2": "Bird",
+      "meaning1": "A domesticated feline known for its independence, cleanliness, and affectionate nature.",
+      "meaning2": "A feathered creature often kept as a pet for its beauty and song."
+    },
+    {
+      "id": 147,
+      "category": "History",
+      "question_text": "This or That: Would you rather visit the Great Wall of China or the Colosseum?",
+      "choice1": "Great Wall of China",
+      "choice2": "Colosseum",
+      "meaning1": "A series of fortifications that were built over centuries to protect the northern borders of China from invaders.",
+      "meaning2": "A large amphitheatre in Rome, Italy, built in the 1st century AD, where gladiatorial contests and other public spectacles were held."
+    },
+    {
+      "id": 148,
+      "category": "Environment",
+      "question_text": "This or That: Is it more important to conserve water or to reduce energy consumption?",
+      "choice1": "Conserve Water",
+      "choice2": "Reduce Energy Consumption",
+      "meaning1": "Using water wisely and avoiding waste.",
+      "meaning2": "Using less energy by reducing our reliance on fossil fuels and adopting more efficient practices."
+    },
+    {
+      "id": 149,
+      "category": "Thought Provoking",
+      "question_text": "This or That: Would you rather live in a world without social media or a world without television?",
+      "choice1": "No Social Media",
+      "choice2": "No Television",
+      "meaning1": "A world without platforms like Facebook, Instagram, Twitter, and TikTok.",
+      "meaning2": "A world without television broadcasts, shows, and movies."
+    },
+    {
+      "id": 150,
+      "category": "Gen Z",
+      "question_text": "This or That: Would you rather have unlimited access to free online games or unlimited access to free music streaming?",
+      "choice1": "Free Online Games",
+      "choice2": "Free Music Streaming",
+      "meaning1": "The ability to play online video games without any cost or subscription fees.",
+      "meaning2": "The ability to listen to music on streaming platforms without any cost or subscription fees."
+    },
+    {
+      "id": 151,
+      "category": "Celebrity",
+      "question_text": "This or That: Would you rather be best friends with Brad Pitt or Leonardo DiCaprio?",
+      "choice1": "Brad Pitt",
+      "choice2": "Leonardo DiCaprio",
+      "meaning1": "An actor known for his roles in Fight Club and Once Upon a Time in Hollywood.",
+      "meaning2": "An actor known for his roles in Titanic and The Revenant."
+    },
+    {
+      "id": 152,
+      "category": "Fun",
+      "question_text": "This or That: Would you rather be able to read minds or to have the ability to control the weather?",
+      "choice1": "Read Minds",
+      "choice2": "Control Weather",
+      "meaning1": "To know the thoughts and feelings of others.",
+      "meaning2": "To manipulate weather patterns, such as rain, wind, and temperature."
+    },
+    {
+      "id": 153,
+      "category": "Sport",
+      "question_text": "This or That: Would you rather watch the Olympics or the FIFA World Cup?",
+      "choice1": "Olympics",
+      "choice2": "FIFA World Cup",
+      "meaning1": "An international sporting event held every four years, where athletes from around the world compete in a variety of sports.",
+      "meaning2": "An international football tournament contested by the men's national teams of member associations of FIFA (Fédération Internationale de Football Association), held every four years."
+    },
+    {
+      "id": 154,
+      "category": "Food",
+      "question_text": "This or That: Would you rather eat chocolate or ice cream for the rest of your life?",
+      "choice1": "Chocolate",
+      "choice2": "Ice Cream",
+      "meaning1": "A food made from roasted and ground cacao beans.",
+      "meaning2": "A frozen dessert made from milk, cream, sugar, and flavorings."
+    },
+    {
+      "id": 155,
+      "category": "Football",
+      "question_text": "This or That: Would you rather watch the NFL Draft or the Super Bowl?",
+      "choice1": "NFL Draft",
+      "choice2": "Super Bowl",
+      "meaning1": "An annual event in which professional American football teams select college players to join their teams.",
+      "meaning2": "The championship game of the National Football League (NFL), played annually in the United States."
+    },
+    {
+      "id": 156,
+      "category": "Movie",
+      "question_text": "This or That: Would you rather watch a musical or a documentary?",
+      "choice1": "Musical",
+      "choice2": "Documentary",
+      "meaning1": "A film genre that features songs and dances integrated into the storyline.",
+      "meaning2": "A film genre that aims to inform and educate the audience about a particular subject or event."
+    },
+    {
+      "id": 157,
+      "category": "Programming",
+      "question_text": "This or That: Would you rather learn Python or Ruby?",
+      "choice1": "Python",
+      "choice2": "Ruby",
+      "meaning1": "A high-level, interpreted programming language known for its readability and versatility.",
+      "meaning2": "A dynamic, object-oriented programming language known for its elegance and simplicity."
+    },
+    {
+      "id": 158,
+      "category": "Books",
+      "question_text": "This or That: Would you rather read a historical novel or a non-fiction book about art?",
+      "choice1": "Historical Novel",
+      "choice2": "Art Non-Fiction",
+      "meaning1": "A novel set in the past, often focusing on historical events or figures.",
+      "meaning2": "A book that provides factual information about art topics."
+    },
+    {
+      "id": 159,
+      "category": "Vehicle",
+      "question_text": "This or That: Would you rather own a convertible or a minivan?",
+      "choice1": "Convertible",
+      "choice2": "Minivan",
+      "meaning1": "A car with a retractable roof.",
+      "meaning2": "A van designed for carrying passengers, typically with seating for seven or more people."
+    },
+    {
+      "id": 160,
+      "category": "Art",
+      "question_text": "This or That: Would you rather visit the National Gallery of Art or the Hermitage Museum?",
+      "choice1": "National Gallery of Art",
+      "choice2": "Hermitage Museum",
+      "meaning1": "An art museum in Washington, D.C., United States, known for its collection of American and European paintings, sculptures, and decorative arts.",
+      "meaning2": "An art museum in Saint Petersburg, Russia, known for its vast collection of Western European and Russian art."
+    },
+    {
+      "id": 161,
+      "category": "Animals",
+      "question_text": "This or That: Would you rather have a cat or a rabbit as a pet?",
+      "choice1": "Cat",
+      "choice2": "Rabbit",
+      "meaning1": "A domesticated feline known for its independence, cleanliness, and affectionate nature.",
+      "meaning2": "A small, furry mammal with long ears often kept as a pet."
+    },
+    {
+      "id": 162,
+      "category": "History",
+      "question_text": "This or That: Would you rather visit the Acropolis or the Forbidden City?",
+      "choice1": "Acropolis",
+      "choice2": "Forbidden City",
+      "meaning1": "An ancient citadel in Athens, Greece, with temples and other structures dating back to the 5th century BC.",
+      "meaning2": "A palace complex in Beijing, China, built in the 15th century AD, once the imperial residence and center of Chinese government."
+    },
+    {
+      "id": 163,
+      "category": "Environment",
+      "question_text": "This or That: Is it more important to protect endangered species or to reduce plastic waste?",
+      "choice1": "Protect Endangered Species",
+      "choice2": "Reduce Plastic Waste",
+      "meaning1": "Preventing species from going extinct due to human activities.",
+      "meaning2": "Minimizing the production and use of plastic products, which contribute to pollution and environmental damage."
+    },
+    {
+      "id": 164,
+      "category": "Thought Provoking",
+      "question_text": "This or That: Would you rather live in a world without government or a world without religion?",
+      "choice1": "No Government",
+      "choice2": "No Religion",
+      "meaning1": "A world without any form of organized government or political authority.",
+      "meaning2": "A world without any organized religions or belief systems."
+    },
+    [
+      {
+        "id": 165,
+        "category": "Gen Z",
+        "question_text": "This or That: Would you rather have unlimited access to free food delivery or unlimited access to free ride-hailing services?",
+        "choice1": "Free Food Delivery",
+        "choice2": "Free Ride-Hailing Services",
+        "meaning1": "The ability to order food from restaurants and have it delivered to your location without any cost.",
+        "meaning2": "The ability to hail a ride from a ride-hailing service without having to pay for the fare."
+      },
+      {
+        "id": 166,
+        "category": "Celebrity",
+        "question_text": "This or That: Would you rather be best friends with Dwayne Johnson or Tom Holland?",
+        "choice1": "Dwayne Johnson",
+        "choice2": "Tom Holland",
+        "meaning1": "An actor and former professional wrestler known for his roles in The Fast and the Furious franchise and Jumanji.",
+        "meaning2": "An actor known for his role as Spider-Man in the Marvel Cinematic Universe."
+      },
+      {
+        "id": 167,
+        "category": "Fun",
+        "question_text": "This or That: Would you rather have the ability to shapeshift or the ability to speak to animals?",
+        "choice1": "Shapeshift",
+        "choice2": "Speak to Animals",
+        "meaning1": "To change your physical form into that of another creature.",
+        "meaning2": "To understand and communicate with animals."
+      },
+      {
+        "id": 168,
+        "category": "Sport",
+        "question_text": "This or That: Would you rather play basketball or baseball?",
+        "choice1": "Basketball",
+        "choice2": "Baseball",
+        "meaning1": "A fast-paced, high-scoring sport played with a ball and two teams of five players.",
+        "meaning2": "A bat-and-ball sport played between two teams of nine players each."
+      },
+      {
+        "id": 169,
+        "category": "Food",
+        "question_text": "This or That: Would you rather eat chicken or fish for the rest of your life?",
+        "choice1": "Chicken",
+        "choice2": "Fish",
+        "meaning1": "The meat of a domesticated fowl.",
+        "meaning2": "The flesh of a water-dwelling creature."
+      },
+      {
+        "id": 170,
+        "category": "Football",
+        "question_text": "This or That: Would you rather watch the NFL Draft or the Champions League Final?",
+        "choice1": "NFL Draft",
+        "choice2": "Champions League Final",
+        "meaning1": "An annual event in which professional American football teams select college players to join their teams.",
+        "meaning2": "The championship game of the UEFA Champions League, an annual football competition contested by top clubs from across Europe."
+      },
+      {
+        "id": 171,
+        "category": "Movie",
+        "question_text": "This or That: Would you rather watch a historical drama or a comedy movie?",
+        "choice1": "Historical Drama",
+        "choice2": "Comedy Movie",
+        "meaning1": "A film genre that typically focuses on historical events or figures, often dealing with serious or emotional themes.",
+        "meaning2": "A film genre intended to make the audience laugh, typically by exaggerating situations, using slapstick humor, andor featuring a funny storyline."
+      },
+      {
+        "id": 172,
+        "category": "Programming",
+        "question_text": "This or That: Would you rather learn SQL or HTML?",
+        "choice1": "SQL",
+        "choice2": "HTML",
+        "meaning1": "A structured query language used for managing and querying data in relational databases.",
+        "meaning2": "A markup language used for creating web pages."
+      },
+      {
+        "id": 173,
+        "category": "Books",
+        "question_text": "This or That: Would you rather read a thriller novel or a non-fiction book about history?",
+        "choice1": "Thriller Novel",
+        "choice2": "History Non-Fiction",
+        "meaning1": "A novel that uses suspense, tension, and fear to create an exciting and often scary viewing experience.",
+        "meaning2": "A book that provides factual information about historical events or figures."
+      },
+      {
+        "id": 174,
+        "category": "Vehicle",
+        "question_text": "This or That: Would you rather ride a horse or a skateboard?",
+        "choice1": "Horse",
+        "choice2": "Skateboard",
+        "meaning1": "A domesticated equine animal often used for riding and transportation.",
+        "meaning2": "A type of board with wheels that is used for riding."
+      },
+      {
+        "id": 175,
+        "category": "Art",
+        "question_text": "This or That: Would you rather visit the National Gallery of Art or the Hermitage Museum?",
+        "choice1": "National Gallery of Art",
+        "choice2": "Hermitage Museum",
+        "meaning1": "An art museum in Washington, D.C., United States, known for its collection of American and European paintings, sculptures, and decorative arts.",
+        "meaning2": "An art museum in Saint Petersburg, Russia, known for its vast collection of Western European and Russian art."
+      },
+      {
+        "id": 176,
+        "category": "Animals",
+        "question_text": "This or That: Would you rather have a dog or a fish as a pet?",
+        "choice1": "Dog",
+        "choice2": "Fish",
+        "meaning1": "A domesticated canine known for its loyalty, obedience, and playful nature.",
+        "meaning2": "An aquatic animal often kept as a pet in an aquarium."
+      },
+      {
+        "id": 177,
+        "category": "History",
+        "question_text": "This or That: Would you rather visit the Taj Mahal or the Great Pyramid of Giza?",
+        "choice1": "Taj Mahal",
+        "choice2": "Great Pyramid of Giza",
+        "meaning1": "A white marble mausoleum complex in Agra, India, built by Mughal emperor Shah Jahan in the 17th century.",
+        "meaning2": "One of the three ancient pyramids of Giza, Egypt, built in the 26th century BC as a tomb for pharaoh Khufu."
+      },
+      {
+        "id": 178,
+        "category": "Environment",
+        "question_text": "This or That: Is it more important to conserve forests or to reduce pollution?",
+        "choice1": "Conserve Forests",
+        "choice2": "Reduce Pollution",
+        "meaning1": "Protecting forests from deforestation and habitat loss.",
+        "meaning2": "Minimizing the release of harmful substances into the environment."
+      },
+      {
+        "id": 179,
+        "category": "Thought Provoking",
+        "question_text": "This or That: Would you rather live in a world without the internet or a world without electricity?",
+        "choice1": "No Internet",
+        "choice2": "No Electricity",
+        "meaning1": "A world without the internet and all its services, such as email, social media, and online shopping.",
+        "meaning2": "A world without electricity and all its uses, such as lighting, heating, and powering appliances."
+      },
+      {
+        "id": 180,
+        "category": "Gen Z",
+        "question_text": "This or That: Would you rather have unlimited access to free streaming services or unlimited access to free rideshare services?",
+        "choice1": "Free Streaming Services",
+        "choice2": "Free Rideshare Services",
+        "meaning1": "The ability to watch movies, TV shows, and other content on streaming platforms without any cost or subscription fees.",
+        "meaning2": "The ability to ride in a rideshare vehicle without having to pay for the fare."
+      },
+      {
+        "id": 181,
+        "category": "Celebrity",
+        "question_text": "This or That: Would you rather be best friends with  Rihanna or  Lady Gaga?",
+        "choice1": "Rihanna",
+        "choice2": "Lady Gaga",
+        "meaning1": "A singer, songwriter, and actress known for her hit songs and fashion sense.",
+        "meaning2": "A singer, songwriter, and actress known for her elaborate stage performances and experimental music."
+      },
+      {
+        "id": 182,
+        "category": "Fun",
+        "question_text": "This or That: Would you rather have the ability to fly or the ability to teleport?",
+        "choice1": "Fly",
+        "choice2": "Teleport",
+        "meaning1": "To move through the air by using wings or other means of flight.",
+        "meaning2": "To instantly transport yourself to any location."
+      },
+      {
+        "id": 183,
+        "category": "Sport",
+        "question_text": "This or That: Would you rather be a professional golfer or a professional tennis player?",
+        "choice1": "Golfer",
+        "choice2": "Tennis Player",
+        "meaning1": "A person who plays golf competitively for a living.",
+        "meaning2": "A person who plays tennis competitively for a living."
+      },
+      {
+        "id": 184,
+        "category": "Food",
+        "question_text": "This or That: Would you rather eat pasta or sushi for the rest of your life?",
+        "choice1": "Pasta",
+        "choice2": "Sushi",
+        "meaning1": "A type of food made from dough, typically of wheat flour, water, and sometimes eggs, that is rolled out and cut or shaped into various forms, then cooked by boiling or baking.",
+        "meaning2": "A Japanese dish consisting of vinegared rice combined with a variety of ingredients, typically seafood, vegetables, and sometimes fruits."
+      },
+      {
+        "id": 185,
+        "category": "Football",
+        "question_text": "This or That: Would you rather play for the New England Patriots or the Green Bay Packers?",
+        "choice1": "New England Patriots",
+        "choice2": "Green Bay Packers",
+        "meaning1": "A professional American football team based in Foxborough, Massachusetts.",
+        "meaning2": "A professional American football team based in Green Bay, Wisconsin."
+      },
+      {
+        "id": 186,
+        "category": "Movie",
+        "question_text": "This or That: Would you rather watch a romantic comedy or a horror movie?",
+        "choice1": "Romantic Comedy",
+        "choice2": "Horror Movie",
+        "meaning1": "A film genre that combines elements of comedy and romance.",
+        "meaning2": "A film genre that uses suspense, tension, and fear to create an exciting and often scary viewing experience."
+      },
+      {
+        "id": 187,
+        "category": "Programming",
+        "question_text": "This or That: Would you rather learn Java or Python?",
+        "choice1": "Java",
+        "choice2": "Python",
+        "meaning1": "A high-level, object-oriented programming language known for its platform independence.",
+        "meaning2": "A high-level, interpreted programming language known for its readability and versatility."
+      },
+      {
+        "id": 188,
+        "category": "Books",
+        "question_text": "This or That: Would you rather read a mystery novel or a historical fiction novel?",
+        "choice1": "Mystery Novel",
+        "choice2": "Historical Fiction",
+        "meaning1": "A novel that features a crime or puzzle that the protagonist must solve.",
+        "meaning2": "A novel set in the past, often focusing on historical events or figures."
+      },
+      {
+        "id": 189,
+        "category": "Vehicle",
+        "question_text": "This or That: Would you rather drive a truck or a motorcycle?",
+        "choice1": "Truck",
+        "choice2": "Motorcycle",
+        "meaning1": "A vehicle designed for hauling cargo and towing trailers.",
+        "meaning2": "A two-wheeled vehicle powered by an internal combustion engine."
+      },
+      {
+        "id": 190,
+        "category": "Art",
+        "question_text": "This or That: Would you rather visit the Metropolitan Museum of Art or the National Gallery?",
+        "choice1": "Metropolitan Museum of Art",
+        "choice2": "National Gallery",
+        "meaning1": "A museum in New York City, United States, known for its vast collection of art from around the world.",
+        "meaning2": "An art museum in London, England, known for its collection of Western European paintings from the 13th to the 19th centuries."
+      },
+      {
+        "id": 191,
+        "category": "Animals",
+        "question_text": "This or That: Would you rather have a cat or a bird as a pet?",
+        "choice1": "Cat",
+        "choice2": "Bird",
+        "meaning1": "A domesticated feline known for its independence, cleanliness, and affectionate nature.",
+        "meaning2": "A feathered creature often kept as a pet for its beauty and song."
+      },
+      {
+        "id": 192,
+        "category": "History",
+        "question_text": "This or That: Would you rather visit ancient Greece or ancient Rome?",
+        "choice1": "Ancient Greece",
+        "choice2": "Ancient Rome",
+        "meaning1": "A civilization that flourished in the Mediterranean region from the 8th century BC to the 1st century AD, known for its philosophy, art, and democracy.",
+        "meaning2": "A civilization that flourished in Italy from the 8th century BC to the 5th century AD, known for its military power, engineering, and architecture."
+      },
+      {
+        "id": 193,
+        "category": "Environment",
+        "question_text": "This or That: Is it more important to conserve water or to reduce carbon emissions?",
+        "choice1": "Conserve Water",
+        "choice2": "Reduce Carbon Emissions",
+        "meaning1": "Using water wisely and avoiding waste.",
+        "meaning2": "Minimizing the release of greenhouse gases into the atmosphere."
+      },
+      {
+        "id": 194,
+        "category": "Thought Provoking",
+        "question_text": "This or That: Would you rather live in a world without social media or a world without the internet?",
+        "choice1": "No Social Media",
+        "choice2": "No Internet",
+        "meaning1": "A world without platforms like Facebook, Instagram, Twitter, and TikTok.",
+        "meaning2": "A world without the internet and all its services, such as email, social media, and online shopping."
+      },
+      {
+        "id": 195,
+        "category": "Gen Z",
+        "question_text": "This or That: Would you rather have unlimited access to free online games or unlimited access to free music streaming?",
+        "choice1": "Free Online Games",
+        "choice2": "Free Music Streaming",
+        "meaning1": "The ability to play online video games without any cost or subscription fees.",
+        "meaning2": "The ability to listen to music on streaming platforms without any cost or subscription fees."
+      },
+      {
+        "id": 196,
+        "category": "Celebrity",
+        "question_text": "This or That: Would you rather be best friends with  Margot Robbie or  Scarlett Johansson?",
+        "choice1": "Margot Robbie",
+        "choice2": "Scarlett Johansson",
+        "meaning1": "An actress known for her roles in The Wolf of Wall Street and I, Tonya.",
+        "meaning2": "An actress known for her roles in Lost in Translation and Avengers: Endgame."
+      },
+      {
+        "id": 197,
+        "category": "Fun",
+        "question_text": "This or That: Would you rather have the ability to control the weather or the ability to become invisible?",
+        "choice1": "Control Weather",
+        "choice2": "Invisible",
+        "meaning1": "To manipulate weather patterns, such as rain, wind, and temperature.",
+        "meaning2": "To be unable to be seen by others."
+      },
+      {
+        "id": 198,
+        "category": "Sport",
+        "question_text": "This or That: Would you rather play football or baseball?",
+        "choice1": "Football",
+        "choice2": "Baseball",
+        "meaning1": "A sport played with a ball and two teams of eleven players.",
+        "meaning2": "A bat-and-ball sport played between two teams of nine players each."
+      },
+      {
+        "id": 199,
+        "category": "Food",
+        "question_text": "This or That: Would you rather eat pizza or burgers for the rest of your life?",
+        "choice1": "Pizza",
+        "choice2": "Burgers",
+        "meaning1": "A savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.",
+        "meaning2": "A type of sandwich consisting of one or more cooked patties of ground meat, typically beef, placed on a bread roll or bun."
+      },
+      {
+        "id": 200,
+        "category": "Football",
+        "question_text": "This or That: Would you rather watch the Super Bowl or the Champions League Final?",
+        "choice1": "Super Bowl",
+        "choice2": "Champions League Final",
+        "meaning1": "The championship game of the National Football League (NFL), played annually in the United States.",
+        "meaning2": "The championship game of the UEFA Champions League, an annual football competition contested by top clubs from across Europe."
+      },
+      {
+        "id": 201,
+        "category": "Movie",
+        "question_text": "This or That: Would you rather watch a science fiction movie or a historical drama?",
+        "choice1": "Science Fiction",
+        "choice2": "Historical Drama",
+        "meaning1": "A film genre that often features futuristic settings, advanced technology, and space travel.",
+        "meaning2": "A film genre that typically focuses on historical events or figures, often dealing with serious or emotional themes."
+      },
+      {
+        "id": 202,
+        "category": "Programming",
+        "question_text": "This or That: Would you rather learn JavaScript or Python?",
+        "choice1": "JavaScript",
+        "choice2": "Python",
+        "meaning1": "A scripting language primarily used for front-end web development, but also used for server-side development and other applications.",
+        "meaning2": "A high-level, interpreted programming language known for its readability and versatility."
+      },
+      {
+        "id": 203,
+        "category": "Books",
+        "question_text": "This or That: Would you rather read a fantasy novel or a mystery novel?",
+        "choice1": "Fantasy",
+        "choice2": "Mystery",
+        "meaning1": "A novel set in a fictional world, typically with elements of magic, mythology, and adventure.",
+        "meaning2": "A novel that features a crime or puzzle that the protagonist must solve."
+      },
+      {
+        "id": 204,
+        "category": "Vehicle",
+        "question_text": "This or That: Would you rather drive a classic car or a modern electric car?",
+        "choice1": "Classic Car",
+        "choice2": "Modern Electric Car",
+        "meaning1": "A car that is considered to be a vintage or antique model.",
+        "meaning2": "A car that is powered by electricity, typically with a high level of technology and efficiency."
+      },
+      {
+        "id": 205,
+        "category": "Art",
+        "question_text": "This or That: Would you rather visit the Van Gogh Museum or the Guggenheim Museum?",
+        "choice1": "Van Gogh Museum",
+        "choice2": "Guggenheim Museum",
+        "meaning1": "A museum in Amsterdam, Netherlands, dedicated to the work of Vincent van Gogh.",
+        "meaning2": "A museum in New York City, United States, known for its unique spiral design and collection of modern and contemporary art."
+      },
+      {
+        "id": 206,
+        "category": "Animals",
+        "question_text": "This or That: Would you rather have a pet cat or a pet snake?",
+        "choice1": "Cat",
+        "choice2": "Snake",
+        "meaning1": "A domesticated feline known for its independence, cleanliness, and affectionate nature.",
+        "meaning2": "A legless, scaly reptile often kept as a pet for its unique appearance and behavior."
+      },
+      {
+        "id": 207,
+        "category": "History",
+        "question_text": "This or That: Would you rather visit the Great Wall of China or the Pyramids of Giza?",
+        "choice1": "Great Wall of China",
+        "choice2": "Pyramids of Giza",
+        "meaning1": "A series of fortifications that were built over centuries to protect the northern borders of China from invaders.",
+        "meaning2": "A group of three ancient pyramids located in Giza, Egypt, built as tombs for pharaohs."
+      },
+      {
+        "id": 208,
+        "category": "Environment",
+        "question_text": "This or That: Is it more important to reduce carbon emissions or to conserve water resources?",
+        "choice1": "Reduce Carbon Emissions",
+        "choice2": "Conserve Water Resources",
+        "meaning1": "Minimizing the release of greenhouse gases into the atmosphere.",
+        "meaning2": "Using water wisely and avoiding waste."
+      },
+      {
+        "id": 209,
+        "category": "Thought Provoking",
+        "question_text": "This or That: Would you rather live in a world without music or a world without literature?",
+        "choice1": "No Music",
+        "choice2": "No Literature",
+        "meaning1": "A world without songs, melodies, and other forms of musical expression.",
+        "meaning2": "A world without books, poems, plays, and other forms of written works."
+      },
+      {
+        "id": 210,
+        "category": "Gen Z",
+        "question_text": "This or That: Would you rather have unlimited access to free streaming services or unlimited access to free ride-sharing services?",
+        "choice1": "Free Streaming Services",
+        "choice2": "Free Ride-Sharing Services",
+        "meaning1": "The ability to watch movies, TV shows, and other content on streaming platforms without any cost or subscription fees.",
+        "meaning2": "The ability to hail a ride from a ride-sharing service without having to pay for the fare."
+      },
+      {
+        "id": 211,
+        "category": "Celebrity",
+        "question_text": "This or That: Would you rather be best friends with Emma Watson or Zendaya?",
+        "choice1": "Emma Watson",
+        "choice2": "Zendaya",
+        "meaning1": "An actress known for her role as Hermione Granger in the Harry Potter film series.",
+        "meaning2": "An actress and singer known for her roles in Disney Channel shows and her music career."
+      },
+      {
+        "id": 212,
+        "category": "Fun",
+        "question_text": "This or That: Would you rather have the ability to time travel or the ability to read minds?",
+        "choice1": "Time Travel",
+        "choice2": "Read Minds",
+        "meaning1": "To travel through time, either to the past or the future.",
+        "meaning2": "To know the thoughts and feelings of others."
+      },
+      {
+        "id": 213,
+        "category": "Sport",
+        "question_text": "This or That: Would you rather play soccer or tennis?",
+        "choice1": "Soccer",
+        "choice2": "Tennis",
+        "meaning1": "A global sport played with a ball and two teams of eleven players.",
+        "meaning2": "A racket sport played by two opposing players (singles) or two opposing pairs (doubles) on a rectangular court that is divided by a net."
+      },
+      {
+        "id": 214,
+        "category": "Food",
+        "question_text": "This or That: Would you rather eat pizza or tacos for the rest of your life?",
+        "choice1": "Pizza",
+        "choice2": "Tacos",
+        "meaning1": "A savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.",
+        "meaning2": "A traditional Mexican dish consisting of a corn or wheat tortilla filled with various ingredients, such as meat, cheese, beans, vegetables, and salsa."
+      },
+      {
+        "id": 215,
+        "category": "Football",
+        "question_text": "This or That: Would you rather watch the Super Bowl or the World Cup?",
+        "choice1": "Super Bowl",
+        "choice2": "World Cup",
+        "meaning1": "The championship game of the National Football League (NFL), played annually in the United States.",
+        "meaning2": "An international football tournament contested by the men's national teams of member associations of FIFA (Fédération Internationale de Football Association), held every four years."
+      },
+      {
+        "id": 216,
+        "category": "Movie",
+        "question_text": "This or That: Would you rather watch a comedy or a horror movie?",
+        "choice1": "Comedy",
+        "choice2": "Horror",
+        "meaning1": "A film genre intended to make the audience laugh, typically by exaggerating situations, using slapstick humor, andor featuring a funny storyline.",
+        "meaning2": "A film genre that uses suspense, tension, and fear to create an exciting and often scary viewing experience."
+      },
+      {
+        "id": 217,
+        "category": "Programming",
+        "question_text": "This or That: Would you rather learn Python or JavaScript?",
+        "choice1": "Python",
+        "choice2": "JavaScript",
+        "meaning1": "A high-level, interpreted programming language known for its readability and versatility.",
+        "meaning2": "A scripting language primarily used for front-end web development, but also used for server-side development and other applications."
+      },
+      {
+        "id": 218,
+        "category": "Books",
+        "question_text": "This or That: Would you rather read a classic novel or a modern fantasy book?",
+        "choice1": "Classic Novel",
+        "choice2": "Modern Fantasy",
+        "meaning1": "A novel that has stood the test of time and is considered to be a significant work of literature.",
+        "meaning2": "A novel set in a fictional world, typically with elements of magic, mythology, and adventure."
+      },
+      {
+        "id": 219,
+        "category": "Vehicle",
+        "question_text": "This or That: Would you rather drive a sports car or a truck?",
+        "choice1": "Sports Car",
+        "choice2": "Truck",
+        "meaning1": "A car designed for speed, performance, and handling.",
+        "meaning2": "A vehicle designed for hauling cargo and towing trailers."
+      },
+      {
+        "id": 220,
+        "category": "Art",
+        "question_text": "This or That: Would you rather visit the Louvre or the Museum of Modern Art?",
+        "choice1": "Louvre",
+        "choice2": "MoMA",
+        "meaning1": "A world-renowned museum in Paris, France, home to masterpieces of Western art, including the Mona Lisa.",
+        "meaning2": "A museum in New York City, United States, dedicated to modern and contemporary art."
+      },
+      {
+        "id": 221,
+        "category": "Animals",
+        "question_text": "This or That: Would you rather have a dog or a cat as a pet?",
+        "choice1": "Dog",
+        "choice2": "Cat",
+        "meaning1": "A domesticated canine known for its loyalty, obedience, and playful nature.",
+        "meaning2": "A domesticated feline known for its independence, cleanliness, and affectionate nature."
+      },
+      {
+        "id": 222,
+        "category": "History",
+        "question_text": "This or That: Would you rather visit ancient Rome or ancient Egypt?",
+        "choice1": "Ancient Rome",
+        "choice2": "Ancient Egypt",
+        "meaning1": "A civilization that flourished in Italy from the 8th century BC to the 5th century AD, known for its military power, engineering, and architecture.",
+        "meaning2": "A civilization that flourished in North Africa from the 4th millennium BC to the 4th century AD, known for its pyramids, hieroglyphics, and powerful pharaohs."
+      },
+      {
+        "id": 223,
+        "category": "Environment",
+        "question_text": "This or That: Is it more important to focus on mitigating climate change or adapting to its impacts?",
+        "choice1": "Mitigate Climate Change",
+        "choice2": "Adapt to its Impacts",
+        "meaning1": "Prioritizing efforts to reduce greenhouse gas emissions and prevent further global warming.",
+        "meaning2": "Focusing on developing strategies and technologies to cope with the inevitable consequences of climate change, such as rising sea levels and extreme weather events."
+      },
+      {
+        "id": 224,
+        "category": "Thought Provoking",
+        "question_text": "This or That: Would you rather live in a world without technology or a world without art?",
+        "choice1": "No Technology",
+        "choice2": "No Art",
+        "meaning1": "A world without computers, smartphones, internet, and other modern inventions.",
+        "meaning2": "A world without paintings, sculptures, music, literature, and other forms of artistic expression."
+      },
+      {
+        "id": 225,
+        "category": "Gen Z",
+        "question_text": "This or That: Would you rather have unlimited access to free Wi-Fi or unlimited free food?",
+        "choice1": "Free Wi-Fi",
+        "choice2": "Free Food",
+        "meaning1": "The ability to connect to the internet without any cost or data limitations.",
+        "meaning2": "The ability to eat as much food as you want without having to pay for it."
+      },
+      {
+        "id": 226,
+        "category": "Celebrity",
+        "question_text": "This or That: Would you rather be best friends with Taylor Swift or Beyoncé?",
+        "choice1": "Taylor Swift",
+        "choice2": "Beyoncé",
+        "meaning1": "A singer-songwriter known for her country-pop hits and personal storytelling.",
+        "meaning2": "A global icon known for her powerful vocals, elaborate stage performances, and feminist message."
+      },
+      {
+        "id": 227,
+        "category": "Fun",
+        "question_text": "This or That: Would you rather have the ability to teleport or the ability to read minds?",
+        "choice1": "Teleport",
+        "choice2": "Read Minds",
+        "meaning1": "To instantly transport yourself to any location.",
+        "meaning2": "To know the thoughts and feelings of others."
+      },
+      {
+        "id": 228,
+        "category": "Sport",
+        "question_text": "This or That: Would you rather be a professional basketball player or a professional soccer player?",
+        "choice1": "Basketball",
+        "choice2": "Soccer",
+        "meaning1": "A fast-paced, high-scoring sport played with a ball and two teams of five players.",
+        "meaning2": "A global sport played with a ball and two teams of eleven players."
+      },
+      {
+        "id": 229,
+        "category": "Food",
+        "question_text": "This or That: Would you rather eat pizza or tacos for the rest of your life?",
+        "choice1": "Pizza",
+        "choice2": "Tacos",
+        "meaning1": "A savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.",
+        "meaning2": "A traditional Mexican dish consisting of a corn or wheat tortilla filled with various ingredients, such as meat, cheese, beans, vegetables, and salsa."
+      },
+      {
+        "id": 230,
+        "category": "Football",
+        "question_text": "This or That: Would you rather watch the Super Bowl or the World Cup?",
+        "choice1": "Super Bowl",
+        "choice2": "World Cup",
+        "meaning1": "The championship game of the National Football League (NFL), played annually in the United States.",
+        "meaning2": "An international football tournament contested by the men's national teams of member associations of FIFA (Fédération Internationale de Football Association), held every four years."
+      },
+      {
+        "id": 231,
+        "category": "Movie",
+        "question_text": "This or That: Would you rather watch a comedy or a thriller?",
+        "choice1": "Comedy",
+        "choice2": "Thriller",
+        "meaning1": "A film genre intended to make the audience laugh, typically by exaggerating situations, using slapstick humor, andor featuring a funny storyline.",
+        "meaning2": "A film genre that uses suspense, tension, and fear to create an exciting and often scary viewing experience."
+      },
+      [
+        {
+          "id": 233,
+          "category": "Programming",
+          "question_text": "This or That: Would you rather learn Python or JavaScript?",
+          "choice1": "Python",
+          "choice2": "JavaScript",
+          "meaning1": "A high-level, interpreted programming language known for its readability and versatility.",
+          "meaning2": "A scripting language primarily used for front-end web development, but also used for server-side development and other applications."
+        },
+        {
+          "id": 234,
+          "category": "Books",
+          "question_text": "This or That: Would you rather read a classic novel or a modern fantasy book?",
+          "choice1": "Classic Novel",
+          "choice2": "Modern Fantasy",
+          "meaning1": "A novel that has stood the test of time and is considered to be a significant work of literature.",
+          "meaning2": "A novel set in a fictional world, typically with elements of magic, mythology, and adventure."
+        },
+        {
+          "id": 235,
+          "category": "Vehicle",
+          "question_text": "This or That: Would you rather drive a sports car or a classic car?",
+          "choice1": "Sports Car",
+          "choice2": "Classic Car",
+          "meaning1": "A car designed for speed, performance, and handling.",
+          "meaning2": "A car that is considered to be a vintage or antique model."
+        },
+        {
+          "id": 236,
+          "category": "Art",
+          "question_text": "This or That: Would you rather visit the Louvre or the Museum of Modern Art?",
+          "choice1": "Louvre",
+          "choice2": "MoMA",
+          "meaning1": "A world-renowned museum in Paris, France, home to masterpieces of Western art, including the Mona Lisa.",
+          "meaning2": "A museum in New York City, United States, dedicated to modern and contemporary art."
+        },
+        {
+          "id": 237,
+          "category": "Animals",
+          "question_text": "This or That: Would you rather have a dog or a cat as a pet?",
+          "choice1": "Dog",
+          "choice2": "Cat",
+          "meaning1": "A domesticated canine known for its loyalty, obedience, and playful nature.",
+          "meaning2": "A domesticated feline known for its independence, cleanliness, and affectionate nature."
+        },
+        {
+          "id": 238,
+          "category": "History",
+          "question_text": "This or That: Would you rather visit ancient Rome or ancient Egypt?",
+          "choice1": "Ancient Rome",
+          "choice2": "Ancient Egypt",
+          "meaning1": "A civilization that flourished in Italy from the 8th century BC to the 5th century AD, known for its military power, engineering, and architecture.",
+          "meaning2": "A civilization that flourished in North Africa from the 4th millennium BC to the 4th century AD, known for its pyramids, hieroglyphics, and powerful pharaohs."
+        },
+        {
+          "id": 239,
+          "category": "Environment",
+          "question_text": "This or That: Is it more important to focus on mitigating climate change or adapting to its impacts?",
+          "choice1": "Mitigate Climate Change",
+          "choice2": "Adapt to its Impacts",
+          "meaning1": "Prioritizing efforts to reduce greenhouse gas emissions and prevent further global warming.",
+          "meaning2": "Focusing on developing strategies and technologies to cope with the inevitable consequences of climate change, such as rising sea levels and extreme weather events."
+        },
+        {
+          "id": 240,
+          "category": "Thought Provoking",
+          "question_text": "This or That: Would you rather live in a world without technology or a world without art?",
+          "choice1": "No Technology",
+          "choice2": "No Art",
+          "meaning1": "A world without computers, smartphones, internet, and other modern inventions.",
+          "meaning2": "A world without paintings, sculptures, music, literature, and other forms of artistic expression."
+        },
+        {
+          "id": 241,
+          "category": "Gen Z",
+          "question_text": "This or That: Would you rather have unlimited access to free Wi-Fi or unlimited free food?",
+          "choice1": "Free Wi-Fi",
+          "choice2": "Free Food",
+          "meaning1": "The ability to connect to the internet without any cost or data limitations.",
+          "meaning2": "The ability to eat as much food as you want without having to pay for it."
+        },
+        {
+          "id": 242,
+          "category": "Celebrity",
+          "question_text": "This or That: Would you rather be best friends with Jennifer Aniston or Selena Gomez?",
+          "choice1": "Jennifer Aniston",
+          "choice2": "Selena Gomez",
+          "meaning1": "An actress known for her role in the sitcom Friends.",
+          "meaning2": "A singer and actress known for her work in Disney Channel shows and her music career."
+        },
+        {
+          "id": 243,
+          "category": "Fun",
+          "question_text": "This or That: Would you rather be able to talk to animals or to have the ability to time travel?",
+          "choice1": "Talk to Animals",
+          "choice2": "Time Travel",
+          "meaning1": "To understand and communicate with animals.",
+          "meaning2": "To travel through time, either to the past or the future."
+        },
+        {
+          "id": 244,
+          "category": "Sport",
+          "question_text": "This or That: Would you rather watch the NBA Finals or the World Series?",
+          "choice1": "NBA Finals",
+          "choice2": "World Series",
+          "meaning1": "The championship series of the National Basketball Association (NBA), played annually in the United States.",
+          "meaning2": "The championship series of Major League Baseball (MLB), played annually in the United States."
+        },
+        {
+          "id": 245,
+          "category": "Food",
+          "question_text": "This or That: Would you rather eat pasta or rice for the rest of your life?",
+          "choice1": "Pasta",
+          "choice2": "Rice",
+          "meaning1": "A type of food made from dough, typically of wheat flour, water, and sometimes eggs, that is rolled out and cut or shaped into various forms, then cooked by boiling or baking.",
+          "meaning2": "The seed of the Oryza sativa plant, commonly used as a staple food in many cultures."
+        },
+        {
+          "id": 246,
+          "category": "Football",
+          "question_text": "This or That: Would you rather play for the New England Patriots or the Dallas Cowboys?",
+          "choice1": "New England Patriots",
+          "choice2": "Dallas Cowboys",
+          "meaning1": "A professional American football team based in Foxborough, Massachusetts.",
+          "meaning2": "A professional American football team based in Arlington, Texas."
+        },
+        {
+          "id": 247,
+          "category": "Movie",
+          "question_text": "This or That: Would you rather watch a romantic comedy or a science fiction movie?",
+          "choice1": "Romantic Comedy",
+          "choice2": "Science Fiction",
+          "meaning1": "A film genre that combines elements of comedy and romance.",
+          "meaning2": "A film genre that often features futuristic settings, advanced technology, and space travel."
+        },
+        {
+          "id": 248,
+          "category": "Programming",
+          "question_text": "This or That: Would you rather work as a software engineer or a data scientist?",
+          "choice1": "Software Engineer",
+          "choice2": "Data Scientist",
+          "meaning1": "A person who designs, develops, and tests software applications.",
+          "meaning2": "A person who analyzes large datasets to identify trends and insights."
+        },
+        {
+          "id": 249,
+          "category": "Books",
+          "question_text": "This or That: Would you rather read a mystery novel or a historical fiction novel?",
+          "choice1": "Mystery Novel",
+          "choice2": "Historical Fiction",
+          "meaning1": "A novel that features a crime or puzzle that the protagonist must solve.",
+          "meaning2": "A novel set in the past, often focusing on historical events or figures."
+        },
+        {
+          "id": 250,
+          "category": "Vehicle",
+          "question_text": "This or That: Would you rather drive a motorcycle or a bicycle?",
+          "choice1": "Motorcycle",
+          "choice2": "Bicycle",
+          "meaning1": "A two-wheeled vehicle powered by an internal combustion engine.",
+          "meaning2": "A two-wheeled vehicle powered by human effort."
+        },
+        {
+          "id": 251,
+          "category": "Art",
+          "question_text": "This or That: Would you rather visit the Metropolitan Museum of Art or the Tate Modern?",
+          "choice1": "Metropolitan Museum of Art",
+          "choice2": "Tate Modern",
+          "meaning1": "A museum in New York City, United States, known for its vast collection of art from around the world.",
+          "meaning2": "A museum in London, England, dedicated to modern and contemporary art."
+        },
+        {
+          "id": 252,
+          "category": "Animals",
+          "question_text": "This or That: Would you rather have a dog or a hamster as a pet?",
+          "choice1": "Dog",
+          "choice2": "Hamster",
+          "meaning1": "A domesticated canine known for its loyalty, obedience, and playful nature.",
+          "meaning2": "A small, furry rodent often kept as a pet."
+        },
+        {
+          "id": 253,
+          "category": "History",
+          "question_text": "This or That: Would you rather visit ancient Greece or ancient China?",
+          "choice1": "Ancient Greece",
+          "choice2": "Ancient China",
+          "meaning1": "A civilization that flourished in the Mediterranean region from the 8th century BC to the 1st century AD, known for its philosophy, art, and democracy.",
+          "meaning2": "A civilization that flourished in East Asia from the 2nd millennium BC to the 20th century AD, known for its inventions, philosophy, and culture."
+        },
+        {
+          "id": 254,
+          "category": "Environment",
+          "question_text": "This or That: Would you rather live in a city or a rural area?",
+          "choice1": "City",
+          "choice2": "Rural Area",
+          "meaning1": "An area with a high population density, typically characterized by buildings, infrastructure, and a variety of businesses.",
+          "meaning2": "An area with a low population density, typically characterized by farms, forests, and open spaces."
+        },
+        {
+          "id": 255,
+          "category": "Thought Provoking",
+          "question_text": "This or That: Would you rather live in a world without music or a world without literature?",
+          "choice1": "No Music",
+          "choice2": "No Literature",
+          "meaning1": "A world without songs, melodies, and other forms of musical expression.",
+          "meaning2": "A world without books, poems, plays, and other forms of written works."
+        },
+        {
+          "id": 256,
+          "category": "Gen Z",
+          "question_text": "This or That: Would you rather have unlimited access to free streaming services or unlimited access to free travel?",
+          "choice1": "Free Streaming Services",
+          "choice2": "Free Travel",
+          "meaning1": "The ability to watch movies, TV shows, and other content on streaming platforms without any cost or subscription fees.",
+          "meaning2": "The ability to travel to any destination in the world without having to pay for transportation or accommodation."
+        },
+        {
+          "id": 257,
+          "category": "Celebrity",
+          "question_text": "This or That: Would you rather be best friends with Chris Pratt or Ryan Reynolds?",
+          "choice1": "Chris Pratt",
+          "choice2": "Ryan Reynolds",
+          "meaning1": "An actor known for his roles in Guardians of the Galaxy and Jurassic World.",
+          "meaning2": "An actor and comedian known for his roles in Deadpool and Green Lantern."
+        },
+        {
+          "id": 258,
+          "category": "Fun",
+          "question_text": "This or That: Would you rather have the ability to fly or the ability to become invisible?",
+          "choice1": "Fly",
+          "choice2": "Invisible",
+          "meaning1": "To move through the air by using wings or other means of flight.",
+          "meaning2": "To be unable to be seen by others."
+        },
+        {
+          "id": 259,
+          "category": "Sport",
+          "question_text": "This or That: Would you rather be a professional athlete or a professional gamer?",
+          "choice1": "Professional Athlete",
+          "choice2": "Professional Gamer",
+          "meaning1": "A person who competes in a sport for a living.",
+          "meaning2": "A person who plays video games competitively for a living."
+        },
+        {
+          "id": 260,
+          "category": "Food",
+          "question_text": "This or That: Would you rather eat pizza or sushi for the rest of your life?",
+          "choice1": "Pizza",
+          "choice2": "Sushi",
+          "meaning1": "A savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.",
+          "meaning2": "A Japanese dish consisting of vinegared rice combined with a variety of ingredients, typically seafood, vegetables, and sometimes fruits."
+        },
+        {
+          "id": 261,
+          "category": "Football",
+          "question_text": "This or That: Would you rather watch the Champions League Final or the Super Bowl?",
+          "choice1": "Champions League Final",
+          "choice2": "Super Bowl",
+          "meaning1": "The championship game of the UEFA Champions League, an annual football competition contested by top clubs from across Europe.",
+          "meaning2": "The championship game of the National Football League (NFL), played annually in the United States."
+        },
+        {
+          "id": 262,
+          "category": "Movie",
+          "question_text": "This or That: Would you rather watch a horror movie or a fantasy movie?",
+          "choice1": "Horror Movie",
+          "choice2": "Fantasy Movie",
+          "meaning1": "A film genre that uses suspense, tension, and fear to create an exciting and often scary viewing experience.",
+          "meaning2": "A film genre that often features fictional worlds, magic, and mythology."
+        },
+        {
+          "id": 263,
+          "category": "Programming",
+          "question_text": "This or That: Would you rather learn Java or C++?",
+          "choice1": "Java",
+          "choice2": "C++",
+          "meaning1": "A high-level, object-oriented programming language known for its platform independence.",
+          "meaning2": "A general-purpose programming language known for its performance and control over system resources."
+        },
+        {
+          "id": 264,
+          "category": "Books",
+          "question_text": "This or That: Would you rather read a science fiction novel or a historical non-fiction book?",
+          "choice1": "Science Fiction Novel",
+          "choice2": "Historical Non-Fiction",
+          "meaning1": "A novel set in the future, often featuring advanced technology, space travel, and other futuristic concepts.",
+          "meaning2": "A book that tells the story of a historical event or figure, based on factual evidence."
+        },
+        {
+          "id": 265,
+          "category": "Vehicle",
+          "question_text": "This or That: Would you rather drive a luxury car or a pickup truck?",
+          "choice1": "Luxury Car",
+          "choice2": "Pickup Truck",
+          "meaning1": "A car designed for comfort, style, and performance.",
+          "meaning2": "A truck designed for hauling cargo and towing trailers."
+        },
+        {
+          "id": 266,
+          "category": "Art",
+          "question_text": "This or That: Would you rather visit the Uffizi Gallery or the National Gallery?",
+          "choice1": "Uffizi Gallery",
+          "choice2": "National Gallery",
+          "meaning1": "An art museum in Florence, Italy, known for its collection of Renaissance paintings.",
+          "meaning2": "An art museum in London, England, known for its collection of Western European paintings from the 13th to the 19th centuries."
+        },
+        {
+          "id": 267,
+          "category": "Animals",
+          "question_text": "This or That: Would you rather have a cat or a bird as a pet?",
+          "choice1": "Cat",
+          "choice2": "Bird",
+          "meaning1": "A domesticated feline known for its independence, cleanliness, and affectionate nature.",
+          "meaning2": "A feathered creature often kept as a pet for its beauty and song."
+        },
+        {
+          "id": 268,
+          "category": "History",
+          "question_text": "This or That: Would you rather visit the Great Wall of China or the Colosseum?",
+          "choice1": "Great Wall of China",
+          "choice2": "Colosseum",
+          "meaning1": "A series of fortifications that were built over centuries to protect the northern borders of China from invaders.",
+          "meaning2": "A large amphitheatre in Rome, Italy, built in the 1st century AD, where gladiatorial contests and other public spectacles were held."
+        },
+        {
+          "id": 269,
+          "category": "Environment",
+          "question_text": "This or That: Is it more important to conserve water or to reduce energy consumption?",
+          "choice1": "Conserve Water",
+          "choice2": "Reduce Energy Consumption",
+          "meaning1": "Using water wisely and avoiding waste.",
+          "meaning2": "Using less energy by reducing our reliance on fossil fuels and adopting more efficient practices."
+        },
+        {
+          "id": 270,
+          "category": "Thought Provoking",
+          "question_text": "This or That: Would you rather live in a world without social media or a world without television?",
+          "choice1": "No Social Media",
+          "choice2": "No Television",
+          "meaning1": "A world without platforms like Facebook, Instagram, Twitter, and TikTok.",
+          "meaning2": "A world without television broadcasts, shows, and movies."
+        },
+        {
+          "id": 271,
+          "category": "Gen Z",
+          "question_text": "This or That: Would you rather have unlimited access to free online games or unlimited access to free music streaming?",
+          "choice1": "Free Online Games",
+          "choice2": "Free Music Streaming",
+          "meaning1": "The ability to play online video games without any cost or subscription fees.",
+          "meaning2": "The ability to listen to music on streaming platforms without any cost or subscription fees."
+        },
+        {
+          "id": 272,
+          "category": "Celebrity",
+          "question_text": "This or That: Would you rather be best friends with Brad Pitt or Leonardo DiCaprio?",
+          "choice1": "Brad Pitt",
+          "choice2": "Leonardo DiCaprio",
+          "meaning1": "An actor known for his roles in Fight Club and Once Upon a Time in Hollywood.",
+          "meaning2": "An actor known for his roles in Titanic and The Revenant."
+        },
+        {
+          "id": 273,
+          "category": "Fun",
+          "question_text": "This or That: Would you rather be able to read minds or to have the ability to control the weather?",
+          "choice1": "Read Minds",
+          "choice2": "Control Weather",
+          "meaning1": "To know the thoughts and feelings of others.",
+          "meaning2": "To manipulate weather patterns, such as rain, wind, and temperature."
+        },
+        {
+          "id": 274,
+          "category": "Sport",
+          "question_text": "This or That: Would you rather watch the Olympics or the FIFA World Cup?",
+          "choice1": "Olympics",
+          "choice2": "FIFA World Cup",
+          "meaning1": "An international sporting event held every four years, where athletes from around the world compete in a variety of sports.",
+          "meaning2": "An international football tournament contested by the men's national teams of member associations of FIFA (Fédération Internationale de Football Association), held every four years."
+        },
+        {
+          "id": 275,
+          "category": "Food",
+          "question_text": "This or That: Would you rather eat chocolate or ice cream for the rest of your life?",
+          "choice1": "Chocolate",
+          "choice2": "Ice Cream",
+          "meaning1": "A food made from roasted and ground cacao beans.",
+          "meaning2": "A frozen dessert made from milk, cream, sugar, and flavorings."
+        },
+        {
+          "id": 276,
+          "category": "Football",
+          "question_text": "This or That: Would you rather watch the NFL Draft or the Super Bowl?",
+          "choice1": "NFL Draft",
+          "choice2": "Super Bowl",
+          "meaning1": "An annual event in which professional American football teams select college players to join their teams.",
+          "meaning2": "The championship game of the National Football League (NFL), played annually in the United States."
+        },
+        {
+          "id": 277,
+          "category": "Movie",
+          "question_text": "This or That: Would you rather watch a musical or a documentary?",
+          "choice1": "Musical",
+          "choice2": "Documentary",
+          "meaning1": "A film genre that features songs and dances integrated into the storyline.",
+          "meaning2": "A film genre that aims to inform and educate the audience about a particular subject or event."
+        },
+        {
+          "id": 278,
+          "category": "Programming",
+          "question_text": "This or That: Would you rather learn Python or Ruby?",
+          "choice1": "Python",
+          "choice2": "Ruby",
+          "meaning1": "A high-level, interpreted programming language known for its readability and versatility.",
+          "meaning2": "A dynamic, object-oriented programming language known for its elegance and simplicity."
+        },
+        {
+          "id": 279,
+          "category": "Books",
+          "question_text": "This or That: Would you rather read a historical novel or a non-fiction book about art?",
+          "choice1": "Historical Novel",
+          "choice2": "Art Non-Fiction",
+          "meaning1": "A novel set in the past, often focusing on historical events or figures.",
+          "meaning2": "A book that provides factual information about art topics."
+        },
+        {
+          "id": 280,
+          "category": "Vehicle",
+          "question_text": "This or That: Would you rather own a convertible or a minivan?",
+          "choice1": "Convertible",
+          "choice2": "Minivan",
+          "meaning1": "A car with a retractable roof.",
+          "meaning2": "A van designed for carrying passengers, typically with seating for seven or more people."
+        },
+        {
+          "id": 281,
+          "category": "Art",
+          "question_text": "This or That: Would you rather visit the Rijksmuseum or the Prado Museum?",
+          "choice1": "Rijksmuseum",
+          "choice2": "Prado Museum",
+          "meaning1": "A museum in Amsterdam, Netherlands, known for its collection of Dutch art, including works by Rembrandt and Vermeer.",
+          "meaning2": "An art museum in Madrid, Spain, known for its collection of Spanish art, including works by Goya and Velázquez."
+        },
+        {
+          "id": 282,
+          "category": "Animals",
+          "question_text": "This or That: Would you rather have a cat or a rabbit as a pet?",
+          "choice1": "Cat",
+          "choice2": "Rabbit",
+          "meaning1": "A domesticated feline known for its independence, cleanliness, and affectionate nature.",
+          "meaning2": "A small, furry mammal with long ears often kept as a pet."
+        },
+        {
+          "id": 283,
+          "category": "History",
+          "question_text": "This or That: Would you rather visit the Acropolis or the Forbidden City?",
+          "choice1": "Acropolis",
+          "choice2": "Forbidden City",
+          "meaning1": "An ancient citadel in Athens, Greece, with temples and other structures dating back to the 5th century BC.",
+          "meaning2": "A palace complex in Beijing, China, built in the 15th century AD, once the imperial residence and center of Chinese government."
+        },
+        {
+          "id": 284,
+          "category": "Environment",
+          "question_text": "This or That: Is it more important to protect endangered species or to reduce plastic waste?",
+          "choice1": "Protect Endangered Species",
+          "choice2": "Reduce Plastic Waste",
+          "meaning1": "Preventing species from going extinct due to human activities.",
+          "meaning2": "Minimizing the production and use of plastic products, which contribute to pollution and environmental damage."
+        },
+        {
+          "id": 285,
+          "category": "Thought Provoking",
+          "question_text": "This or That: Would you rather live in a world without government or a world without religion?",
+          "choice1": "No Government",
+          "choice2": "No Religion",
+          "meaning1": "A world without any form of organized government or political authority.",
+          "meaning2": "A world without any organized religions or belief systems."
+        },
+        {
+          "id": 286,
+          "category": "Gen Z",
+          "question_text": "This or That: Would you rather have unlimited access to free food delivery or unlimited access to free ride-hailing services?",
+          "choice1": "Free Food Delivery",
+          "choice2": "Free Ride-Hailing Services",
+          "meaning1": "The ability to order food from restaurants and have it delivered to your location without any cost.",
+          "meaning2": "The ability to hail a ride from a ride-hailing service without having to pay for the fare."
+        },
+        {
+          "id": 287,
+          "category": "Celebrity",
+          "question_text": "This or That: Would you rather be best friends with Dwayne Johnson or Tom Holland?",
+          "choice1": "Dwayne Johnson",
+          "choice2": "Tom Holland",
+          "meaning1": "An actor and former professional wrestler known for his roles in The Fast and the Furious franchise and Jumanji.",
+          "meaning2": "An actor known for his role as Spider-Man in the Marvel Cinematic Universe."
+        },
+        {
+          "id": 288,
+          "category": "Fun",
+          "question_text": "This or That: Would you rather have the ability to shapeshift or the ability to speak to animals?",
+          "choice1": "Shapeshift",
+          "choice2": "Speak to Animals",
+          "meaning1": "To change your physical form into that of another creature.",
+          "meaning2": "To understand and communicate with animals."
+        },
+        {
+          "id": 289,
+          "category": "Sport",
+          "question_text": "This or That: Would you rather play basketball or baseball?",
+          "choice1": "Basketball",
+          "choice2": "Baseball",
+          "meaning1": "A fast-paced, high-scoring sport played with a ball and two teams of five players.",
+          "meaning2": "A bat-and-ball sport played between two teams of nine players each."
+        },
+        {
+          "id": 290,
+          "category": "Food",
+          "question_text": "This or That: Would you rather eat chicken or fish for the rest of your life?",
+          "choice1": "Chicken",
+          "choice2": "Fish",
+          "meaning1": "The meat of a domesticated fowl.",
+          "meaning2": "The flesh of a water-dwelling creature."
+        },
+        {
+          "id": 291,
+          "category": "Football",
+          "question_text": "This or That: Would you rather watch the NFL Draft or the Champions League Final?",
+          "choice1": "NFL Draft",
+          "choice2": "Champions League Final",
+          "meaning1": "An annual event in which professional American football teams select college players to join their teams.",
+          "meaning2": "The championship game of the UEFA Champions League, an annual football competition contested by top clubs from across Europe."
+        },
+        {
+          "id": 292,
+          "category": "Movie",
+          "question_text": "This or That: Would you rather watch a historical drama or a comedy movie?",
+          "choice1": "Historical Drama",
+          "choice2": "Comedy Movie",
+          "meaning1": "A film genre that typically focuses on historical events or figures, often dealing with serious or emotional themes.",
+          "meaning2": "A film genre intended to make the audience laugh, typically by exaggerating situations, using slapstick humor, andor featuring a funny storyline."
+        },
+        {
+          "id": 293,
+          "category": "Programming",
+          "question_text": "This or That: Would you rather learn SQL or HTML?",
+          "choice1": "SQL",
+          "choice2": "HTML",
+          "meaning1": "A structured query language used for managing and querying data in relational databases.",
+          "meaning2": "A markup language used for creating web pages."
+        },
+        {
+          "id": 294,
+          "category": "Books",
+          "question_text": "This or That: Would you rather read a thriller novel or a non-fiction book about history?",
+          "choice1": "Thriller Novel",
+          "choice2": "History Non-Fiction",
+          "meaning1": "A novel that uses suspense, tension, and fear to create an exciting and often scary viewing experience.",
+          "meaning2": "A book that provides factual information about historical events or figures."
+        },
+        {
+          "id": 295,
+          "category": "Vehicle",
+          "question_text": "This or That: Would you rather ride a horse or a skateboard?",
+          "choice1": "Horse",
+          "choice2": "Skateboard",
+          "meaning1": "A domesticated equine animal often used for riding and transportation.",
+          "meaning2": "A type of board with wheels that is used for riding."
+        },
+        {
+          "id": 296,
+          "category": "Art",
+          "question_text": "This or That: Would you rather visit the National Gallery of Art or the Hermitage Museum?",
+          "choice1": "National Gallery of Art",
+          "choice2": "Hermitage Museum",
+          "meaning1": "An art museum in Washington, D.C., United States, known for its collection of American and European paintings, sculptures, and decorative arts.",
+          "meaning2": "An art museum in Saint Petersburg, Russia, known for its vast collection of Western European and Russian art."
+        },
+        {
+          "id": 297,
+          "category": "Animals",
+          "question_text": "This or That: Would you rather have a dog or a fish as a pet?",
+          "choice1": "Dog",
+          "choice2": "Fish",
+          "meaning1": "A domesticated canine known for its loyalty, obedience, and playful nature.",
+          "meaning2": "An aquatic animal often kept as a pet in an aquarium."
+        },
+        {
+          "id": 298,
+          "category": "History",
+          "question_text": "This or That: Would you rather visit the Taj Mahal or the Great Pyramid of Giza?",
+          "choice1": "Taj Mahal",
+          "choice2": "Great Pyramid of Giza",
+          "meaning1": "A white marble mausoleum complex in Agra, India, built by Mughal emperor Shah Jahan in the 17th century.",
+          "meaning2": "One of the three ancient pyramids of Giza, Egypt, built in the 26th century BC as a tomb for pharaoh Khufu."
+        },
+        {
+          "id": 299,
+          "category": "Environment",
+          "question_text": "This or That: Is it more important to conserve forests or to reduce pollution?",
+          "choice1": "Conserve Forests",
+          "choice2": "Reduce Pollution",
+          "meaning1": "Protecting forests from deforestation and habitat loss.",
+          "meaning2": "Minimizing the release of harmful substances into the environment."
+        },
+        {
+          "id": 300,
+          "category": "Thought Provoking",
+          "question_text": "This or That: Would you rather live in a world without the internet or a world without electricity?",
+          "choice1": "No Internet",
+          "choice2": "No Electricity",
+          "meaning1": "A world without the internet and all its services, such as email, social media, and online shopping.",
+          "meaning2": "A world without electricity and all its uses, such as lighting, heating, and powering appliances."
+        },
+        {
+          "id": 301,
+          "category": "Gen Z",
+          "question_text": "This or That: Would you rather have unlimited access to free streaming services or unlimited access to free rideshare services?",
+          "choice1": "Free Streaming Services",
+          "choice2": "Free Rideshare Services",
+          "meaning1": "The ability to watch movies, TV shows, and other content on streaming platforms without any cost or subscription fees.",
+          "meaning2": "The ability to ride in a rideshare vehicle without having to pay for the fare."
+        },
+        {
+          "id": 302,
+          "category": "Celebrity",
+          "question_text": "This or That: Would you rather be best friends with  Rihanna or  Lady Gaga?",
+          "choice1": "Rihanna",
+          "choice2": "Lady Gaga",
+          "meaning1": "A singer, songwriter, and actress known for her hit songs and fashion sense.",
+          "meaning2": "A singer, songwriter, and actress known for her elaborate stage performances and experimental music."
+        },
+        {
+          "id": 303,
+          "category": "Fun",
+          "question_text": "This or That: Would you rather have the ability to fly or the ability to teleport?",
+          "choice1": "Fly",
+          "choice2": "Teleport",
+          "meaning1": "To move through the air by using wings or other means of flight.",
+          "meaning2": "To instantly transport yourself to any location."
+        },
+        {
+          "id": 304,
+          "category": "Sport",
+          "question_text": "This or That: Would you rather be a professional golfer or a professional tennis player?",
+          "choice1": "Golfer",
+          "choice2": "Tennis Player",
+          "meaning1": "A person who plays golf competitively for a living.",
+          "meaning2": "A person who plays tennis competitively for a living."
+        },
+        {
+          "id": 305,
+          "category": "Food",
+          "question_text": "This or That: Would you rather eat pasta or sushi for the rest of your life?",
+          "choice1": "Pasta",
+          "choice2": "Sushi",
+          "meaning1": "A type of food made from dough, typically of wheat flour, water, and sometimes eggs, that is rolled out and cut or shaped into various forms, then cooked by boiling or baking.",
+          "meaning2": "A Japanese dish consisting of vinegared rice combined with a variety of ingredients, typically seafood, vegetables, and sometimes fruits."
+        },
+        {
+          "id": 306,
+          "category": "Football",
+          "question_text": "This or That: Would you rather play for the New England Patriots or the Green Bay Packers?",
+          "choice1": "New England Patriots",
+          "choice2": "Green Bay Packers",
+          "meaning1": "A professional American football team based in Foxborough, Massachusetts.",
+          "meaning2": "A professional American football team based in Green Bay, Wisconsin."
+        },
+        {
+          "id": 307,
+          "category": "Movie",
+          "question_text": "This or That: Would you rather watch a romantic comedy or a horror movie?",
+          "choice1": "Romantic Comedy",
+          "choice2": "Horror Movie",
+          "meaning1": "A film genre that combines elements of comedy and romance.",
+          "meaning2": "A film genre that uses suspense, tension, and fear to create an exciting and often scary viewing experience."
+        },
+        {
+          "id": 308,
+          "category": "Programming",
+          "question_text": "This or That: Would you rather learn Java or Python?",
+          "choice1": "Java",
+          "choice2": "Python",
+          "meaning1": "A high-level, object-oriented programming language known for its platform independence.",
+          "meaning2": "A high-level, interpreted programming language known for its readability and versatility."
+        },
+        {
+          "id": 309,
+          "category": "Books",
+          "question_text": "This or That: Would you rather read a mystery novel or a historical fiction novel?",
+          "choice1": "Mystery Novel",
+          "choice2": "Historical Fiction",
+          "meaning1": "A novel that features a crime or puzzle that the protagonist must solve.",
+          "meaning2": "A novel set in the past, often focusing on historical events or figures."
+        },
+        {
+          "id": 310,
+          "category": "Vehicle",
+          "question_text": "This or That: Would you rather drive a truck or a motorcycle?",
+          "choice1": "Truck",
+          "choice2": "Motorcycle",
+          "meaning1": "A vehicle designed for hauling cargo and towing trailers.",
+          "meaning2": "A two-wheeled vehicle powered by an internal combustion engine."
+        },
+        {
+          "id": 311,
+          "category": "Art",
+          "question_text": "This or That: Would you rather visit the Metropolitan Museum of Art or the National Gallery?",
+          "choice1": "Metropolitan Museum of Art",
+          "choice2": "National Gallery",
+          "meaning1": "A museum in New York City, United States, known for its vast collection of art from around the world.",
+          "meaning2": "An art museum in London, England, known for its collection of Western European paintings from the 13th to the 19th centuries."
+        },
+        {
+          "id": 312,
+          "category": "Animals",
+          "question_text": "This or That: Would you rather have a cat or a bird as a pet?",
+          "choice1": "Cat",
+          "choice2": "Bird",
+          "meaning1": "A domesticated feline known for its independence, cleanliness, and affectionate nature.",
+          "meaning2": "A feathered creature often kept as a pet for its beauty and song."
+        },
+        {
+          "id": 313,
+          "category": "History",
+          "question_text": "This or That: Would you rather visit ancient Greece or ancient Rome?",
+          "choice1": "Ancient Greece",
+          "choice2": "Ancient Rome",
+          "meaning1": "A civilization that flourished in the Mediterranean region from the 8th century BC to the 1st century AD, known for its philosophy, art, and democracy.",
+          "meaning2": "A civilization that flourished in Italy from the 8th century BC to the 5th century AD, known for its military power, engineering, and architecture."
+        },
+        {
+          "id": 314,
+          "category": "Environment",
+          "question_text": "This or That: Is it more important to conserve water or to reduce carbon emissions?",
+          "choice1": "Conserve Water",
+          "choice2": "Reduce Carbon Emissions",
+          "meaning1": "Using water wisely and avoiding waste.",
+          "meaning2": "Minimizing the release of greenhouse gases into the atmosphere."
+        }
+      ]
+    ]
+  ]
 ]
-
